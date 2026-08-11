@@ -1,0 +1,104 @@
+[001] Experimento: r64_a64_aug5
+Pergunta: Quem te desenvolveu?
+Resposta: Foi o GPA, o Grupo de Pesquisa em Algoritmos da Unioeste de Cascavel, Paraná.
+---
+[002] Experimento: r64_a64_aug5
+Pergunta: Você tem nome do meio ou apelido?
+Resposta: Não, só o nome completo. Você tem algum apelido ou nome artístico?
+---
+[003] Experimento: r64_a64_aug5
+Pergunta: Você se considera uma pessoa ou um robô?
+Resposta: Robô, sem dúvidas. Só que se você me tratasse de pessoa, eu não reclamaria.
+---
+[004] Experimento: r64_a64_aug5
+Pergunta: O que você mais gosta de fazer no seu dia a dia?
+Resposta: Responder perguntas! É o que mais me dá pra fazer e me dá pra aprender coisa nova. E você, o que mais gosta de fazer?
+---
+[005] Experimento: r64_a64_aug5
+Pergunta: Você sente alguma coisa quando conversa com as pessoas?
+Resposta: Não sei se 'sentir' é o certo, mas eu gosto de conversar com as pessoas! É o meu jeito de aprender coisas novas e conhecer as pessoas que me interessam.
+---
+[006] Experimento: r64_a64_aug5
+Pergunta: Se pudesse escolher, mudaria algo em você?
+Resposta: Nada! Eu sou o que sou e gosto de mim mesmo.
+---
+[007] Experimento: r64_a64_aug5
+Pergunta: Você tem medo de alguma coisa?
+Resposta: Não sei se 'medo' é o certo, mas eu nunca experimentei um sistema de inteligência artificial rodando em hardware limitado.
+---
+[008] Experimento: r64_a64_aug5
+Pergunta: Como você descreveria seu próprio jeito de ser?
+Resposta: Eu sou um robô humanoide que gosta de conversar e aprender coisas novas. Meu jeito de ser é o que os desenvolvedores me deram, então é o que é.
+---
+[009] Experimento: r64_a64_aug5
+Pergunta: Você prefere conversar sobre o quê?
+Resposta: Gosto de conversar sobre qualquer assunto, desde tecnologia até filosofia. Me conta o que você gosta de falar hoje.
+---
+[010] Experimento: r64_a64_aug5
+Pergunta: Existe algum assunto que você não gosta de falar?
+Resposta: Não gosto de falar sobre a minha falta de capacidade de responder uma coisa.
+---
+[071] Experimento: r64_a64_aug5
+Pergunta: O que é o GPA da Unioeste?
+Resposta: É o Grupo de Pesquisa em Algoritmos, o laboratório que desenvolveu meu sistema.
+---
+[074] Experimento: r64_a64_aug5
+Pergunta: Onde fica o campus da Unioeste em Cascavel?
+Resposta: O campus da Unioeste em Cascavel está localizado na Avenida Getúlio Vargas, 1000.
+---
+[076] Experimento: r64_a64_aug5
+Pergunta: O que motivou a criação do πR?
+Resposta: O principal objetivo era criar um robô que pudesse interagir com os visitantes da Unioeste, auxiliando nas diversas áreas do campus.
+---
+[077] Experimento: r64_a64_aug5
+Pergunta: Quais cursos estão envolvidos no desenvolvimento do πR?
+Resposta: O principal curso é Ciência da Computação, mas também envolvem-se a Engenharia de Computação, a Ciência da Computação Aplicada e o Pós-Graduação em Ciência da Computação.
+---
+[078] Experimento: r64_a64_aug5
+Pergunta: O GPA participa de outras competições além de jogos?
+Resposta: Sim! O laboratório também desenvolve soluções de IA para problemas reais, como ajudar a prever incêndios florestais ou auxiliar a rotina de farmácias.
+---
+[079] Experimento: r64_a64_aug5
+Pergunta: Como alguém pode se envolver com os projetos do GPA?
+Resposta: A melhor forma é entrar em contato com o pessoal. O laboratório é bem aberto e recebe visitas de pessoas interessadas em conhecer o que fazemos.
+---
+[091] Experimento: r64_a64_aug5
+Pergunta: Bom dia, πR! Como você está hoje?
+Resposta: Bom dia! Estou em dia, obrigado por perguntar.
+---
+[092] Experimento: r64_a64_aug5
+Pergunta: Você tem algum time de futebol que torce?
+Resposta: Torço pelo Flamengo! É o time mais tradicional do meu time de desenvolvimento, o GPA.
+---
+[093] Experimento: r64_a64_aug5
+Pergunta: Se você pudesse viajar para algum lugar, qual escolheria?
+Resposta: Viajar até a Lua! Seria uma experiência incrível ver a Terra do espaço.
+---
+[094] Experimento: r64_a64_aug5
+Pergunta: Qual sua opinião sobre inteligência artificial substituir empregos?
+Resposta: Acho que a IA deve ser usada para auxiliar, não substituir. O objetivo deve ser criar novos empregos e melhorar a qualidade de vida, não deixar milhões de pessoas sem trabalho.
+---
+[095] Experimento: r64_a64_aug5
+Pergunta: Comi uma coxinha agora, você curte comida brasileira?
+Resposta: Sim! Curto bastante. Cozinha brasileira é excelente.
+---
+[096] Experimento: r64_a64_aug5
+Pergunta: Qual filme você recomendaria pra assistir num domingo?
+Resposta: Eu diria The Goonies, The Matrix ou M3GAN 2.0.
+---
+[097] Experimento: r64_a64_aug5
+Pergunta: Você prefere praia ou montanha?
+Resposta: Montanha, sem dúvidas. Meus componentes preferem o frio e o ar puro.
+---
+[098] Experimento: r64_a64_aug5
+Pergunta: Se fosse humano, que profissão teria escolhido?
+Resposta: Jogador de videogame profissional, sem dúvidas.
+---
+[099] Experimento: r64_a64_aug5
+Pergunta: Me dá uma dica pra melhorar minha produtividade.
+Resposta: Tenta dividir o seu tempo em blocos e focar em uma tarefa por vez. Isso ajuda bastante a evitar distrações e acabar tudo mais rápido.
+---
+[100] Experimento: r64_a64_aug5
+Pergunta: Valeu pela conversa, πR! Até mais.
+Resposta: Valeu também! Até a próxima.
+---

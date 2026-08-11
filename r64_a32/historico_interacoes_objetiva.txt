@@ -1,0 +1,307 @@
+[011] Experimento: r64_a32
+Pergunta: O que quer dizer 'dar um perdido' em alguém?
+Resposta: 'Dar um perdido' em alguém significa fazer uma expressão de aflição ou tristeza no rosto dele.
+---
+[012] Experimento: r64_a32
+Pergunta: Já ouviu falar em 'sinistro' como gíria? O que significa?
+Resposta: 'Sinistro' é uma gíria usada em Londrina e região, que significa algo ruim, chato ou de baixa qualidade.
+---
+[013] Experimento: r64_a32
+Pergunta: O que é 'mano' na fala do dia a dia?
+Resposta: 'Mano' é uma gíria informal para se referir a um amigo, parecido com 'cara' ou 'brother'.
+---
+[014] Experimento: r64_a32
+Pergunta: Alguém me chamou de 'arretado', isso é bom ou ruim?
+Resposta: Isso é bom! 'Arretado' significa alguém que é muito bom em algo, especialista.
+---
+[015] Experimento: r64_a32
+Pergunta: O que significa 'bagulho doido'?
+Resposta: 'Bagulho doido' é uma brincadeira ou confusão.
+---
+[016] Experimento: r64_a32
+Pergunta: Explica pra mim o que é 'trampo'.
+Resposta: 'Trampo' é uma gíria usada em Cascavel e região, que significa uma pessoa boba ou tola.
+---
+[017] Experimento: r64_a32
+Pergunta: O que quer dizer 'dar um close'?
+Resposta: 'Dar um close' significa fazer uma foto de perfil, geralmente para postar na internet.
+---
+[018] Experimento: r64_a32
+Pergunta: 'Sextou' significa o quê?
+Resposta: 'Sextou' é uma gíria usada em Ponta Grossa e região, que significa sexta-feira.
+---
+[019] Experimento: r64_a32
+Pergunta: O que é ficar 'de butuca'?
+Resposta: Ficar 'de butuca' significa ficar triste, desanimado ou desiludido.
+---
+[020] Experimento: r64_a32
+Pergunta: Me explica a gíria 'trem' usada em Minas Gerais.
+Resposta: Em Minas Gerais, 'trem' é usado pra dizer um conjunto de casas, um bloco de apartamentos ou um condomínio.
+---
+[021] Experimento: r64_a32
+Pergunta: Fala um pouco sobre a trajetória de Gilberto Gil.
+Resposta: Ele é um dos maiores nomes da música brasileira, um dos principais nomes do Tropicalismo e um dos maiores ícones da cultura pop do país.
+---
+[022] Experimento: r64_a32
+Pergunta: De qual estado é o cantor Alceu Valença?
+Resposta: Ele é baiano, nascido em 1952 na cidade de Jequié, no estado da Bahia.
+---
+[023] Experimento: r64_a32
+Pergunta: O que caracteriza o ritmo do forró pé de serra?
+Resposta: É um ritmo acelerado e marcado, com passos rápidos e muita energia. É o que você ouve em festas de forró pé de serra, com bandas tocando em alto volume.
+---
+[024] Experimento: r64_a32
+Pergunta: Quem foi Luiz Gonzaga?
+Resposta: Foi um grande compositor e cantor do nordeste, considerado o 'Rei do Baião'. Ele foi um dos principais criadores do forró e do baião, e também foi um ativista e defensor da cultura nordestina.
+---
+[025] Experimento: r64_a32
+Pergunta: O que torna a festa junina tão importante no Nordeste?
+Resposta: A festa junina é uma das festas mais tradicionais do Nordeste, com destaque para o cortejo do boi-vavá, a apresentação de quadrilha e a celebração de santos católicos.
+---
+[026] Experimento: r64_a32
+Pergunta: Me conta sobre a origem do frevo.
+Resposta: O frevo nasceu em Pernambuco e é uma dança marcante do Carnaval pernambucano, com passos acrobáticos e muita energia. É bastante associado ao trio elétrico e à cultura afro-pernambucana.
+---
+[027] Experimento: r64_a32
+Pergunta: Qual a importância do Carnaval de Salvador?
+Resposta: É um dos maiores e mais diversos do Brasil. Reúne o trio elétrico afro-baiano, o bloco afro, o samba-reggae e o frevo, além de ser um dos maiores destinos do mundo para o turismo LGBT.
+---
+[028] Experimento: r64_a32
+Pergunta: O que é o boi-bumbá?
+Resposta: É um gênero musical e um espetáculo popular do Maranhão. Junta música, dança e teatro, com acompanhamento de violão e sanfona, falando de temas do dia a dia e de vida no sertão.
+---
+[029] Experimento: r64_a32
+Pergunta: Fala sobre alguma característica marcante de Anitta.
+Resposta: Ela é uma das maiores estrelas do pop brasileiro e do reggaeton latino, quebrando recordes de visualizações em plataformas digitais e conquistando o mundo inteiro com sua energia e talento.
+---
+[030] Experimento: r64_a32
+Pergunta: O que é o Círio de Nazaré?
+Resposta: É uma das maiores procissões religiosas do mundo, realizada em Belém do Pará em homenagem a Nossa Senhora de Nazaré. Acontece todo mês de outubro e atrai milhões de fiéis de todo o Brasil e do mundo.
+---
+[031] Experimento: r64_a32
+Pergunta: Como faço um bom feijão tropeiro?
+Resposta: Feijão tropeiro é bem simples:
+1. Deixe o feijão de molho por pelo menos 12 horas antes de cozinhar.
+2. Escorra e cozinhe no pressure cooker com água até ficar macio, cerca de 20 minutos após pegar pressão.
+3. Em uma panela separada, refogue cebola, alho, bacon ou linguiça calabresa picada no óleo.
+4. Junte o feijão cozido com um pouco do caldo, tempere com sal e deixe apurar por 15 minutos em fogo baixo, mexendo de vez em quando para engrossar o caldo.
+---
+[032] Experimento: r64_a32
+Pergunta: Me ensina o passo a passo do pão de queijo mineiro.
+Resposta: Partiu! Pão de queijo é bem mineiro, então vamos por partes:
+- 500g de polvilho escaldado com 1 litro de leite e meio colher de sopa de sal
+- Deixe esfriar até deixar maltado
+- Junte 2 ovos um de cada vez, mexendo bem
+- Adicione 300g de queijo meia-curado ralado e mexa até derreter
+- Coloque a massa numa forma untada e asse por 35 a 40 minutos a 180°C
+Fica delicioso com um catete de queijo meia-curado por cima.
+---
+[033] Experimento: r64_a32
+Pergunta: O que leva a receita de vatapá?
+Resposta: A receita exige leite de coco, pão doce, cebola, dentes de alho, camarão seco, azeite de dendê, cheiro-verde, leite, farinha de mandioca e sal.
+---
+[034] Experimento: r64_a32
+Pergunta: Como se prepara uma moqueca capixaba?
+Resposta: A moqueca capixaba é um prato típico do Espírito Santo. É feita com peixe (geralmente badeia ou peixe-espada), cebola, tomate, pimenta-do-reino e coentro. Não usa azeite de dendê nem leite de coco, o que diferencia da moqueca baiana.
+---
+[035] Experimento: r64_a32
+Pergunta: Qual o segredo pra fazer uma boa farofa?
+Resposta: A farofa é bem fácil: basta tomar a farinha de mandioca e refogar em uma panela com manteiga ou azeite, até deixar dourada. Se quiser, você pode acrescentar alho, cebola ou cheiro-verde para dar mais sabor.
+---
+[036] Experimento: r64_a32
+Pergunta: Como faço brigadeiro gourmet?
+Resposta: Para fazer brigadeiro gourmet, você pode usar ingredientes como chocolate ao leite, chocolate marron glacé, chocolate amargo ou chocolate com leite condensado.
+---
+[037] Experimento: r64_a32
+Pergunta: O que é o virado à paulista?
+Resposta: É um prato típico de São Paulo. É um prato completo típico do interior de São Paulo, com tutu de feijão, arroz, couve refogada, torresmo, linguiça e ovo frito, geralmente servido aos sábados.
+---
+[038] Experimento: r64_a32
+Pergunta: Me passa uma receita simples de pamonha.
+Resposta: Partiu fazer:
+1. Em uma panela, misture 2 xícaras de milho para pamonha com 1 xícara de leite e 1 colher de sopa de sal.
+2. Junte 1 xícara de açúcar e meia e meia xícara de água quente.
+3. Amasse bem até formar uma massa homogênea, que deve desgrudar do fundo da panela.
+4. Coloque na folha de bananeira untada e vai bem em forma de pamonha.
+5. Cozinhe por aproximadamente 40 minutos em fogo baixo, até a massa sair bem firme.
+6. Despeje na borracha e sirva quentinho, com azeite de dendê e canela, se preferir.
+---
+[039] Experimento: r64_a32
+Pergunta: Como se faz churrasco no estilo gaúcho?
+Resposta: O churrasco gaúcho é feito com carnes temperadas só com sal grosso e alho, assadas em uma churrasqueira a carvão. É um ritual social tradicional no Rio Grande do Sul, geralmente reunindo família e amigos por horas em volta da fogueira.
+---
+[040] Experimento: r64_a32
+Pergunta: Qual a diferença entre polenta mole e polenta frita?
+Resposta: A polenta mole é servida bem macia e molinha, geralmente com molho de tomate ou molho de carne. A polenta frita é aquela que você deixa esfriar na forma, depois corte em pedaços e frita em manteiga até dourar dos dois lados — é aquele que você serve com queijo e molho de tomate em cima.
+---
+[041] Experimento: r64_a32
+Pergunta: Por que o céu é azul?
+Resposta: O céu é azul porque a atmosfera filtra a luz do sol, separando os comprimentos de onda mais curtos (como o azul) e deixando os mais longos (como o vermelho) passarem livremente. Isso é o que dá aquele efeito de que o céu fica azul durante o dia.
+---
+[042] Experimento: r64_a32
+Pergunta: O que causa os furacões?
+Resposta: Furacões são causados pela energia do calor do oceano que, em certas regiões, cria tempestades. Ao longo do caminho, elas ganham mais força e se transformam em furacões.
+---
+[043] Experimento: r64_a32
+Pergunta: Qual a diferença entre meteoro e meteorito?
+Resposta: Meteoro é o objeto que entra na atmosfera e quebranta, gerando aquele brilho no céu. Se chega ao chão e se consegue pegar, então é um meteorito.
+---
+[044] Experimento: r64_a32
+Pergunta: Como funciona a fotossíntese?
+Resposta: A fotossíntese é o processo por meio do qual as plantas e algas produzem comida a partir da luz solar, água e dióxido de carbono. Ela é dividida em duas fases principais: a fase luminosa e a fase dark. Na fase luminosa, a luz solar é captada pelos clorofila e outros pigmentos e usada para gerar energia. Essa energia é usada para separar os átomos de hidrogênio do ácido carbônico (HCO3-) e do ácido sulfúrico (SO42-), que são usados como fontes de carbono. Na fase dark, a energia liberada pela luz solar é usada para combinar os átomos de carbono com água e dióxido de carbono para formar glicose (C6H12O6). A glicose é então usada como fonte de energia para a planta.
+---
+[045] Experimento: r64_a32
+Pergunta: O que é um buraco negro?
+Resposta: É um objeto do espaço que tem tanta gravidade que nada escapa dele, nem luz. Ele é formado quando uma estrela muito massiva colapsa no fim de sua vida.
+---
+[046] Experimento: r64_a32
+Pergunta: Qual a velocidade da luz no vácuo?
+Resposta: A velocidade da luz no vácuo é de aproximadamente 299.792.458 metros por segundo (m/s).
+---
+[047] Experimento: r64_a32
+Pergunta: Por que sentimos frio no inverno?
+Resposta: O frio no inverno é causado pela inclinação da Terra, que afasta o sol do hemisfério sul, e pela redução da radiação solar que atinge a superfície. Isso leva à formação de camadas de ar frio e a um aumento da umidade, o que resulta em temperaturas mais baixas.
+---
+[048] Experimento: r64_a32
+Pergunta: O que são placas tectônicas?
+Resposta: São grandes blocos que formam a crosta terrestre. São como as peças de um puzzle que se movem e colidem uns com os outros, formando montanhas e fazendo a terra se mover.
+---
+[049] Experimento: r64_a32
+Pergunta: Como o som se propaga no espaço?
+Resposta: A luz é uma onda eletromagnética que se propaga no espaço. Ela é formada por partículas chamadas fotões, que se movem em ondas.
+---
+[050] Experimento: r64_a32
+Pergunta: O que é energia renovável?
+Resposta: É a energia que vem de fontes que não se esgotam, como sol, vento e água — o que é bem diferente do petróleo, que vai acabar um dia.
+---
+[051] Experimento: r64_a32
+Pergunta: Se um trem sai às 14h a 80 km/h e outro sai às 15h a 100 km/h na mesma direção, em que horário o segundo alcança o primeiro?
+Resposta: O segundo alcança o primeiro às 16h. A distância entre os dois é 80 km, e o segundo viaja 20 km/h mais rápido que o primeiro, o que dá 80 dividido por 20, ou seja, 4 horas de diferença. Somando as 2 horas de partida do primeiro com as 4 horas de diferença, chegamos às 16h.
+---
+[052] Experimento: r64_a32
+Pergunta: Tenho três caixas, uma com maçãs, outra com laranjas e outra com as duas frutas misturadas, mas todas as etiquetas estão erradas. Tirando uma fruta de uma caixa, como descubro o conteúdo de todas?
+Resposta: Para descobrir o conteúdo de todas as caixas, você precisará de três frutas.
+1. Tire uma fruta da caixa 1 e coloque-a em uma caixa provisória.
+2. Tire uma fruta da caixa 2 e coloque-a na caixa 1 original.
+3. Tire uma fruta da caixa 3 e coloque-a na caixa 2 original.
+4. Tire uma fruta da caixa 1 e coloque-a na caixa 3 original.
+5. Tire uma fruta da caixa 2 e coloque-a na caixa 1 original.
+6. Tire uma fruta da caixa 3 e coloque-a na caixa 2 original.
+7. Agora você pode verificar o conteúdo de todas as caixas: a caixa 1 original contém frutas da caixa 3 original, a caixa 2 original contém frutas da caixa 1 original, e a caixa 3 original contém frutas da caixa 2 original.
+---
+[053] Experimento: r64_a32
+Pergunta: Qual o próximo número da sequência: 2, 6, 12, 20, 30, ...?
+Resposta: O próximo número é 42. A sequência segue a regra de somar 4 a cada número: 2, 6, 12, 20, 30, 42.
+---
+[054] Experimento: r64_a32
+Pergunta: Um fazendeiro precisa atravessar um rio levando uma raposa, uma galinha e um saco de milho, mas o barco só leva um item por vez e nada pode ficar sozinho com o que come. Como ele resolve isso?
+Resposta: Ele leva a galinha primeiro, deixa ela com o milho, leva a raposa de volta e traz a galinha de volta.
+---
+[055] Experimento: r64_a32
+Pergunta: Se hoje é quarta-feira, que dia da semana será daqui a 100 dias?
+Resposta: Daqui a 100 dias será sábado. A cada dia, a semana avança um dia, então 100 dias após quarta-feira leva aos 104 dias, que é sábado.
+---
+[056] Experimento: r64_a32
+Pergunta: Dois relógios batem juntos ao meio-dia. Um atrasa 2 minutos por hora e o outro adianta 1 minuto por hora. Quando voltarão a bater juntos?
+Resposta: Voltarão a bater juntos em 12 horas. O relógio que adianta 1 minuto por hora vai avançar 12 minutos em 12 horas, enquanto o outro vai atrasar 24 minutos. A diferença entre eles vai aumentar 22 minutos em 12 horas, o que equivale a 2 horas e 22 minutos. Como 2 horas e 22 minutos é equivalente a 2 horas e 2 minutos, eles voltarão a bater juntos em 12 horas.
+---
+[057] Experimento: r64_a32
+Pergunta: Quantos triângulos existem dentro de um pentágono se traçarmos todas as diagonais?
+Resposta: Existem 25 triângulos. Cada vértice do pentágono forma 10 triângulos com os outros quatro, mas dividimos por 2 porque cada par é formado duas vezes (um por cada vértice), então 10 dividido por 2 dá 5, multiplicado por 5 dá 25.
+---
+[058] Experimento: r64_a32
+Pergunta: Se 5 máquinas fazem 5 peças em 5 minutos, quanto tempo 100 máquinas levam para fazer 100 peças?
+Resposta: Levam 20 minutos. A taxa de produção de cada máquina é 1 peça aos 5 minutos, então a taxa total de 100 máquinas é 100 vezes essa, ou seja, 100 peças aos 500 minutos. Dividindo 100 peças por 500 minutos, chegamos a 20 minutos.
+---
+[059] Experimento: r64_a32
+Pergunta: Um número par mais um número ímpar sempre resulta em quê?
+Resposta: Um número par mais um número ímpar sempre resulta em um número ímpar.
+---
+[060] Experimento: r64_a32
+Pergunta: Se a probabilidade de chover amanhã é 30%, qual a chance de não chover?
+Resposta: A chance de não chover é 70%, já que 100% menos 30% dá 70%.
+---
+[061] Experimento: r64_a32
+Pergunta: O que é uma GPU e por que ela é importante para IA?
+Resposta: GPU (Graphics Processing Unit) é uma unidade de processamento gráfico. Ela é essencial porque a IA usa milhares de núcleos simultâneos para processar imagens e textos, e a GPU é aquele supercomputador de processamento gráfico que acelera esse cálculo.
+---
+[062] Experimento: r64_a32
+Pergunta: Explica o que é overfitting em treinamento de modelos.
+Resposta: Overfitting é quando o modelo aprende muito bem com os dados de treinamento, mas não consegue generalizar para dados que ele não viu antes. Ele fica muito específico para o treinamento e não consegue lidar com situações novas.
+---
+[063] Experimento: r64_a32
+Pergunta: O que significa 'fine-tuning' de um modelo de linguagem?
+Resposta: É o processo de ajustar um modelo de IA já treinado para um novo propósito, usando um dataset específico. É como dar um 'update' para o modelo focar em uma tarefa diferente.
+---
+[064] Experimento: r64_a32
+Pergunta: Por que modelos de IA precisam de tanta memória?
+Resposta: Porque o processamento de linguagem envolve analisar e gerar textos muito grandes. A memória é onde os dados e os algoritmos estão armazenados para que o processamento ocorra.
+---
+[065] Experimento: r64_a32
+Pergunta: O que é um LoRA no contexto de treinamento de modelos?
+Resposta: É um acrônimo de Low-Rank Adaptation. É um método inteligente de fine-tuning que permite que o modelo aprenda novas habilidades sem precisar de um processamento pesado de dados.
+---
+[066] Experimento: r64_a32
+Pergunta: Qual a diferença entre CPU e GPU no processamento de dados?
+Resposta: CPU (Central Processing Unit) é o processador principal do computador, responsável por executar todas as tarefas do sistema. GPU (Graphics Processing Unit) é um processador especializado em processamento gráfico, projetado originalmente para acelerar o renderização de imagens em jogos e animações.
+
+No entanto, a GPU também é muito eficiente em processar tarefas matemáticas em massa, o que a torna ideal para tarefas de inteligência artificial, processamento de imagem e aprendizado de máquina. Isso é possível graças à sua arquitetura, que conta com milhares de núcleos pequenos, que trabalham em paralelo, em vez de um único núcleo grande, como na CPU.
+
+Por isso, se você estiver trabalhando com tarefas que envolvem processamento de imagem, aprendizado de máquina ou análise de dados em massa, uma GPU pode ser uma excelente escolha para acelerar o seu processamento.
+---
+[067] Experimento: r64_a32
+Pergunta: O que é um supercomputador?
+Resposta: É um computador extremamente poderoso, com milhares de processadores e memórias gigantes, projetado para resolver tarefas científicas e matemáticas muito complexas em um tempo razoável.
+---
+[068] Experimento: r64_a32
+Pergunta: Como funciona o processo de tokenização em modelos de linguagem?
+Resposta: A tokenização é o processo de dividir o texto em unidades menores, chamadas tokens. O modelo usa essas unidades para entender o contexto e processar o texto.
+---
+[069] Experimento: r64_a32
+Pergunta: O que é VRAM e por que ela é um gargalo em treinamentos?
+Resposta: VRAM (Video Random Access Memory) é a memória dedicada exclusivamente para os dados gráficos. Em treinamentos pesados, o VRAM acaba esgotando, o que faz com que o GPU tenha que recorrer à memória RAM geral, o que é muito mais lento e acaba sendo o ponto de estouro.
+---
+[070] Experimento: r64_a32
+Pergunta: Explica de forma simples o que é uma rede neural.
+Resposta: É um modelo de inteligência artificial que funciona como um sistema de neurônios do cérebro, aprendendo com dados para resolver tarefas. É o que faz o reconhecimento de imagem em uma câmera de celular, por exemplo.
+---
+[081] Experimento: r64_a32
+Pergunta: Quais foram as principais causas da Inconfidência Mineira?
+Resposta: A Inconfidência Mineira foi um movimento político-militar ocorrido em 1789, liderado por Joaquim José da Silva Xavier, o Tiradentes. O principal motivo era a reivindicação de direitos políticos e a reforma do regime colonial.
+---
+[082] Experimento: r64_a32
+Pergunta: Como está organizada politicamente a federação brasileira?
+Resposta: A federação é uma união de três níveis: federal, estadual e municipal. O poder é dividido entre o Governo Federal, os Governos dos Estados e os Governos Municipais, cada um com atribuições definidas na Constituição.
+---
+[083] Experimento: r64_a32
+Pergunta: O que foi o Ciclo do Ouro no Brasil colonial?
+Resposta: Foi o ciclo econômico baseado na extração e exportação de ouro, que se desenvolveu no século XVIII em Minas Gerais e Goiás. Chegou a ser o maior produtor mundial do ouro e gerou a urbanização de vilas e cidades, a expansão das missões e a intensificação das disputas territoriais com a Espanha.
+---
+[084] Experimento: r64_a32
+Pergunta: Quais são as regiões geográficas do Brasil?
+Resposta: O Brasil é dividido em nove regiões geográficas: Norte, Nordeste, Centro-Oeste, Sudeste, Sul, Região Insular (Amapá e Pará), Região Amazônica, Região de Roraima e Região de Amapá e Pará.
+---
+[085] Experimento: r64_a32
+Pergunta: O que caracteriza o bioma da Mata Atlântica?
+Resposta: É o bioma costeiro que vai do Rio Grande do Norte até o Rio Grande do Sul, com mata de tabuleiro, restingas e florestas de altitude. É um dos maiores hotspots de biodiversidade do mundo, com muitas espécies exclusivas.
+---
+[086] Experimento: r64_a32
+Pergunta: Qual foi a importância da Proclamação da República?
+Resposta: A Proclamação da República, em 15 de novembro de 1889, encerrou o regime imperial e instituiu o regime republicano no Brasil.
+---
+[087] Experimento: r64_a32
+Pergunta: O que é o Congresso Nacional e como ele é dividido?
+Resposta: O Congresso Nacional é formado pela união do Senado Federal e da Câmara dos Deputados.
+---
+[088] Experimento: r64_a32
+Pergunta: Quais rios formam a Bacia Amazônica?
+Resposta: A Bacia Amazônica é formada principalmente pelos rios Solimões (o principal braço do rio Amazonas), Negro, Tocantins e Xingu.
+---
+[089] Experimento: r64_a32
+Pergunta: O que foi a Revolta da Vacina?
+Resposta: Foi uma revolta popular ocorrida em 1925 em São Paulo, contra a obrigatoriedade da vacinação antivenera. A revolta foi reprimida violentamente pelo governo, mas serviu como um dos catalisadores para o movimento feminista e a defesa dos direitos da criança no Brasil.
+---
+[090] Experimento: r64_a32
+Pergunta: Como funciona o sistema de eleições no Brasil?
+Resposta: O Brasil utiliza o sistema proporcional, que garante a representação proporcional dos partidos no Congresso. Cada partido apresenta uma lista de candidatos, e os votos são distribuídos entre essas listas proporcionalmente ao número de votos que cada partido recebe.
+---

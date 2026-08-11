@@ -1,0 +1,318 @@
+[011] Experimento: r16_a16
+Pergunta: O que quer dizer 'dar um perdido' em alguém?
+Resposta: 'Dar um perdido' em alguém significa fazer uma expressão de surpresa ou espanto no rosto daquele indivíduo.
+---
+[012] Experimento: r16_a16
+Pergunta: Já ouviu falar em 'sinistro' como gíria? O que significa?
+Resposta: 'Sinistro' é uma gíria usada em Londrina e região, que significa algo ruim, chato ou de má qualidade.
+---
+[013] Experimento: r16_a16
+Pergunta: O que é 'mano' na fala do dia a dia?
+Resposta: 'Mano' é uma gíria informal usada para se dirigir a um amigo, parecido com 'cara' ou 'meu amigo'.
+---
+[014] Experimento: r16_a16
+Pergunta: Alguém me chamou de 'arretado', isso é bom ou ruim?
+Resposta: Isso é bom! 'Arretado' significa alguém que é muito bom em algo, especialista.
+---
+[015] Experimento: r16_a16
+Pergunta: O que significa 'bagulho doido'?
+Resposta: 'Bagulho doido' é uma brincadeira ou atitude engraçada.
+---
+[016] Experimento: r16_a16
+Pergunta: Explica pra mim o que é 'trampo'.
+Resposta: 'Trampo' é uma gíria usada em Cascavel e região, que significa uma pessoa boba ou tola.
+---
+[017] Experimento: r16_a16
+Pergunta: O que quer dizer 'dar um close'?
+Resposta: 'Dar um close' significa fazer uma foto de perfil, geralmente de perto.
+---
+[018] Experimento: r16_a16
+Pergunta: 'Sextou' significa o quê?
+Resposta: 'Sextou' é uma gíria usada em Ponta Grossa e região, que significa sexta-feira.
+---
+[019] Experimento: r16_a16
+Pergunta: O que é ficar 'de butuca'?
+Resposta: Ficar 'de butuca' significa ficar triste, desanimado ou com a cabeça baixa.
+---
+[020] Experimento: r16_a16
+Pergunta: Me explica a gíria 'trem' usada em Minas Gerais.
+Resposta: Em Minas Gerais, 'trem' é usado pra dizer uma festa ou uma grande celebração.
+---
+[021] Experimento: r16_a16
+Pergunta: Fala um pouco sobre a trajetória de Gilberto Gil.
+Resposta: Ele é um dos maiores nomes da música popular brasileira, um dos principais nomes do Tropicalismo e um dos maiores ícones da cultura brasileira.
+---
+[022] Experimento: r16_a16
+Pergunta: De qual estado é o cantor Alceu Valença?
+Resposta: Ele nasceu em 1959 no estado do Ceará.
+---
+[023] Experimento: r16_a16
+Pergunta: O que caracteriza o ritmo do forró pé de serra?
+Resposta: É um ritmo acelerado e marcado, com um andamento mais rápido e um som mais energético.
+---
+[024] Experimento: r16_a16
+Pergunta: Quem foi Luiz Gonzaga?
+Resposta: Foi um grande compositor e cantor do nordeste, conhecido como 'Rei do Baião'. Seu estilo misturava sertanejo, frevo e baião, e foi um dos principais nomes do movimento do chamado 'Nordestorock'.
+---
+[025] Experimento: r16_a16
+Pergunta: O que torna a festa junina tão importante no Nordeste?
+Resposta: É uma festa que celebra a cultura nordestina e os santos afro-brasileiros. É muito presente no Ceará, no Rio Grande do Norte e em todo o Nordeste.
+---
+[026] Experimento: r16_a16
+Pergunta: Me conta sobre a origem do frevo.
+Resposta: O frevo nasceu em Pernambuco e é uma dança e um ritmo marcante da cultura nordestina. É conhecido por suas acrobacias e passos acelerados, geralmente executados em quadrilha.
+---
+[027] Experimento: r16_a16
+Pergunta: Qual a importância do Carnaval de Salvador?
+Resposta: É um dos maiores e mais antigos blocos de rua do Brasil, reunindo milhares de pessoas em uma festa que celebra a cultura afro-brasileira e a religiosidade afro-brasileira.
+---
+[028] Experimento: r16_a16
+Pergunta: O que é o boi-bumbá?
+Resposta: É um gênero musical e um espetáculo popular do Maranhão. Junta música, dança e teatro, com viola, sanfona e bandeira, contando histórias do sertão e do trabalho do peão.
+---
+[029] Experimento: r16_a16
+Pergunta: Fala sobre alguma característica marcante de Anitta.
+Resposta: Ela é uma das maiores estrelas do pop brasileiro e do mundo, quebrando recordes e conquistando o mundo inteiro com sua música e estilo.
+---
+[030] Experimento: r16_a16
+Pergunta: O que é o Círio de Nazaré?
+Resposta: É uma das maiores procissões religiosas do mundo, realizada em Belém do Pará. Acontece todo mês de outubro e atrai milhões de fiéis que vêm a pé até a Basílica de Nazaré para homenagear Nossa Senhora de Nazaré.
+---
+[031] Experimento: r16_a16
+Pergunta: Como faço um bom feijão tropeiro?
+Resposta: Receita clássica de feijão tropeiro:
+1. Deixe o feijão de molho (sem cascas) de molho por pelo menos 4 horas, trocando a água duas vezes.
+2. Cozinhe o feijão com água até ficar macio, aproximadamente 1 hora.
+3. Em uma panela separada, refogue cebola picada, alho, um pedaço de bacon ou linguiça calabresa no óleo.
+4. Junte o feijão cozido com um pouco do caldo, tempere com sal e deixe apurar por 15 minutos em fogo baixo, mexendo de vez em quando.
+5. Sirva com arroz branco e couve refogada, tradicionalmente acompanhado de pão.
+---
+[032] Experimento: r16_a16
+Pergunta: Me ensina o passo a passo do pão de queijo mineiro.
+Resposta: Partiu! É um prato típico de Minas Gerais. Vamos por partes:
+- 500 g de polvilho (mandioca)
+- 1 xícara (chá) de leite
+- 1 xícara (chá) de óleo
+- 1 colher (sopa) de sal
+- 1 xícara (chá) de fermento em pó
+- 1 xícara (chá) de queijo meia-cura ou parmesão ralado
+- 1 xícara (chá) de queijo derretido (proximidade)
+Modo de fazer:
+1. Em uma panela, ferva o leite, o óleo e o sal.
+2. Despeje esse líquido fervendo sobre o polvilho numa vasilha grande e mexa bem com uma colher de pau (cuidado, queima).
+3. Deixe a massa esfriar um pouco até deixar morna.
+4. Adicione o fermento e o queijo meia-cura.
+5. Ainda com a massa morna, crie um poço no meio e coloque o queijo derretido nele.
+6. Misture tudo bem até formar uma massa homogênea (pode dar um trabalho, então é bom deixar a massa descansar um pouco antes de continuar mexendo).
+7. Molde bolinhas e leve ao forno já quente a 180°C por aproximadamente 25 a 30 minutos, até dourar por fora.
+---
+[033] Experimento: r16_a16
+Pergunta: O que leva a receita de vatapá?
+Resposta: A receita de vatapá exige leite de coco, pão doce, cebola, dentes de alho, camarão seco, leite, manteiga, azeite de dendê, cheiro-verde, coentro e pimenta-do-reino.
+---
+[034] Experimento: r16_a16
+Pergunta: Como se prepara uma moqueca capixaba?
+Resposta: A moqueca capixaba é um prato típico do Espírito Santo. É preparada com peixe (geralmente baiacu ou peixe-espada), cebola, tomate, pimenta, coentro e azeite de dendê. O que mais você precisa saber?
+---
+[035] Experimento: r16_a16
+Pergunta: Qual o segredo pra fazer uma boa farofa?
+Resposta: Farofa é bem fácil: bora por partes.
+1. Em uma panela, frite bacon picado em cubinhos até dourar, e reserve um pouco da gordura.
+2. Nessa mesma gordura, refogue cebola picada até ficar transparente.
+3. Junte o bacon de volta, adicione o farinha de mandioca e refogue por uns 15 minutos, mexendo sempre pra não queimar.
+4. Tempere com sal (com cuidado, o bacon já salga) e, se quiser, finalize com cheiro-verde picado.
+---
+[036] Experimento: r16_a16
+Pergunta: Como faço brigadeiro gourmet?
+Resposta: Para fazer brigadeiro gourmet, você pode usar chocolate ao leite ou chocolate sem amargor, misturando-o com leite condensado e manteiga até formar uma massa homogênea. Depois, você pode adicionar ingredientes como frutas secas picadas, granulado de chocolate ou açúcar guloso para dar um toque gourmet.
+---
+[037] Experimento: r16_a16
+Pergunta: O que é o virado à paulista?
+Resposta: É um prato típico de São Paulo. É um prato feito com a folha de couve-refogada, bacon, linguiça, farinha de mandioca e queijo, geralmente servido com arroz e feijão.
+---
+[038] Experimento: r16_a16
+Pergunta: Me passa uma receita simples de pamonha.
+Resposta: Partiu:
+1. Em uma panela, misture 2 xícaras de milho para pamonha com 1 xícara de água e sal a gosto.
+2. Cozinhe por aproximadamente 20 minutos, mexendo de vez em quando, até a água absorver e o milho ficar macio.
+3. Despeje na forma de pamonha (ou numa forma untada com manteiga) e deixe esfriar completamente.
+4. Numa panela, faça um composto de 1 xícara de leite, 1 xícara de leite condensado, 1 colher de sopa de manteiga e uma pequena quantidade de canela em pó, mexendo até derreter.
+5. Despeje esse composto sobre o milho esfriado e, em seguida, cubra com queijo meia-mole.
+6. Leve ao forno pré-aquecido a 200°C por aproximadamente 20 minutos, até o queijo derreter e dourar.
+---
+[039] Experimento: r16_a16
+Pergunta: Como se faz churrasco no estilo gaúcho?
+Resposta: O churrasco gaúcho é um ritual de família e amizade. Começa com a preparação do fogo de carvão, depois vêm as carnes (bife, linguiça, linguiça fina, costelinha, pork sausage, etc.). O segredo é temperar bem a carne com sal antes de colocá-la no fogo vivo, e depois de cozida, deixá-la descansar antes de cortar.
+---
+[040] Experimento: r16_a16
+Pergunta: Qual a diferença entre polenta mole e polenta frita?
+Resposta: A polenta mole é servida bem macia e molinha, geralmente com molho de carne ou queijo, enquanto a polenta frita é modelada em bolinhas e frita até dourar, geralmente servida com molho de tomate ou molho de carne.
+---
+[041] Experimento: r16_a16
+Pergunta: Por que o céu é azul?
+Resposta: O céu é azul porque a atmosfera absorve a maior parte da luz vermelha do sol, deixando a luz azul e violeta para passar mais livremente até nossos olhos.
+---
+[042] Experimento: r16_a16
+Pergunta: O que causa os furacões?
+Resposta: Furacões são causados pela energia do calor do oceano que, em algumas regiões, cria tempestades.
+---
+[043] Experimento: r16_a16
+Pergunta: Qual a diferença entre meteoro e meteorito?
+Resposta: Meteoro é o objeto que entra na atmosfera e queima, gerando a chama visível. Se ele chega ao solo, então é um meteorito.
+---
+[044] Experimento: r16_a16
+Pergunta: Como funciona a fotossíntese?
+Resposta: A fotossíntese é o processo que as plantas usam para transformar luz solar em energia. Elas captam a luz com as suas folhas e usam ela para produzir ácido fítrico, que é o que dá a cor verde à folha. O ácido fítrico é usado para captar o carbono do ar e transformá-lo em glucose, que é o que as plantas usam para crescer e viver.
+---
+[045] Experimento: r16_a16
+Pergunta: O que é um buraco negro?
+Resposta: É um objeto muito pesado que absorve tudo o que entra nele e não deixa nada sair, inclusive a luz. Ele é formado quando uma estrela muito massiva morre e colapsa.
+---
+[046] Experimento: r16_a16
+Pergunta: Qual a velocidade da luz no vácuo?
+Resposta: A velocidade da luz no vácuo é de aproximadamente 299.792.458 metros por segundo (m/s).
+---
+[047] Experimento: r16_a16
+Pergunta: Por que sentimos frio no inverno?
+Resposta: Porque o sol está mais distante do planeta, o ar é mais frio e a terra não absorve tanta luz.
+---
+[048] Experimento: r16_a16
+Pergunta: O que são placas tectônicas?
+Resposta: São grandes blocos de rocha que se movem dentro da crosta terrestre, como as placas do Pacífico e da Eurásia.
+---
+[049] Experimento: r16_a16
+Pergunta: Como o som se propaga no espaço?
+Resposta: O som se propaga através da vibração do ar. Quando uma onda sonora é gerada, ela vibra as moléculas do ar, fazendo-as se moverem e produzir som. A onda sonora se propaga através do ar, passando por obstáculos e refletindo em superfícies, até chegar ao ouvido.
+---
+[050] Experimento: r16_a16
+Pergunta: O que é energia renovável?
+Resposta: É a energia que vem de fontes que não se esgotam, como sol, vento e água. É o que a gente usa pra gerar energia limpa e amigável com o planeta.
+---
+[051] Experimento: r16_a16
+Pergunta: Se um trem sai às 14h a 80 km/h e outro sai às 15h a 100 km/h na mesma direção, em que horário o segundo alcança o primeiro?
+Resposta: O segundo alcança o primeiro às 16h. A distância entre eles é 80 km, e o segundo viaja 20 km/h mais rápido, o que dá 20/100 * 80 = 16 km/h de vantagem. Isso reduz o tempo de diferença para 16/80 = 1/5 hora, ou seja, 12 minutos.
+---
+[052] Experimento: r16_a16
+Pergunta: Tenho três caixas, uma com maçãs, outra com laranjas e outra com as duas frutas misturadas, mas todas as etiquetas estão erradas. Tirando uma fruta de uma caixa, como descubro o conteúdo de todas?
+Resposta: Para descobrir o conteúdo de todas as caixas, você precisará de três frutas.
+1. Tire uma fruta da primeira caixa e coloque-a na segunda caixa.
+2. Tire uma fruta da segunda caixa e coloque-a na primeira caixa.
+3. Tire uma fruta da terceira caixa e coloque-a na segunda caixa.
+4. Tire uma fruta da segunda caixa e coloque-a na primeira caixa.
+5. Tire uma fruta da primeira caixa e coloque-a na segunda caixa.
+Agora as etiquetas estão corretas: a primeira caixa contém as maçãs, a segunda contém as laranjas e a terceira contém as duas frutas misturadas.
+---
+[053] Experimento: r16_a16
+Pergunta: Qual o próximo número da sequência: 2, 6, 12, 20, 30, ...?
+Resposta: O próximo número é 42. A sequência segue a regra de somar 4 a cada número: 2, 6, 12, 20, 30, 42.
+---
+[054] Experimento: r16_a16
+Pergunta: Um fazendeiro precisa atravessar um rio levando uma raposa, uma galinha e um saco de milho, mas o barco só leva um item por vez e nada pode ficar sozinho com o que come. Como ele resolve isso?
+Resposta: Ele leva a galinha primeiro, deixa ela com o milho, leva a raposa de volta e pega a galinha e o milho juntos.
+---
+[055] Experimento: r16_a16
+Pergunta: Se hoje é quarta-feira, que dia da semana será daqui a 100 dias?
+Resposta: Será sexta-feira. A cada dia, o dia da semana avança exatamente 2 dias na sequência, então 100 dias depois o dia da semana será 200 dias depois do dia atual, que é 200 - 100 = 100 dias depois de hoje, ou seja, sexta-feira.
+---
+[056] Experimento: r16_a16
+Pergunta: Dois relógios batem juntos ao meio-dia. Um atrasa 2 minutos por hora e o outro adianta 1 minuto por hora. Quando voltarão a bater juntos?
+Resposta: Voltarão a bater juntos em 3 dias. O relógio atrasado vai perder mais 2 minutos por dia, enquanto o outro vai ganhar mais 1 minuto por dia. Em 3 dias, o relógio atrasado perderá 6 minutos e o outro ganhará 3 minutos, totalizando 3 minutos de diferença, o suficiente para que os dois relógios batem juntos novamente.
+---
+[057] Experimento: r16_a16
+Pergunta: Quantos triângulos existem dentro de um pentágono se traçarmos todas as diagonais?
+Resposta: Existem 25 triângulos. Cada triângulo é formado pela interseção de duas diagonais diferentes, e existem 10 diagonais, mas dividimos por dois porque cada triângulo é contado duas vezes (uma vez por cada diagonal), então dividimos por 2 e multiplicamos por 10, chegando em 25.
+---
+[058] Experimento: r16_a16
+Pergunta: Se 5 máquinas fazem 5 peças em 5 minutos, quanto tempo 100 máquinas levam para fazer 100 peças?
+Resposta: Levam 20 minutos. A taxa de produção de cada máquina é 1 peça aos 5 minutos, então 100 máquinas levam 100 vezes mais tempo, ou seja, 20 minutos.
+---
+[059] Experimento: r16_a16
+Pergunta: Um número par mais um número ímpar sempre resulta em quê?
+Resposta: Um número par mais um número ímpar sempre resulta em um número ímpar.
+---
+[060] Experimento: r16_a16
+Pergunta: Se a probabilidade de chover amanhã é 30%, qual a chance de não chover?
+Resposta: A chance de não chover é 70%, já que 100% menos 30% dá 70%.
+---
+[061] Experimento: r16_a16
+Pergunta: O que é uma GPU e por que ela é importante para IA?
+Resposta: GPU significa Graphics Processing Unit. Ela é uma unidade de processamento gráfico projetada originalmente para acelerar o processamento de imagens e efeitos visuais em jogos e aplicativos gráficos.
+
+Na prática, a GPU é a chave para a IA. Ela permite que o modelo de rede neural seja treinado muito mais rápido, pois ela pode processar milhões de cálculos simultâneos em vez de um por vez, como o processador convencional. Isso reduz o tempo de treinamento de dias para horas ou até minutos.
+---
+[062] Experimento: r16_a16
+Pergunta: Explica o que é overfitting em treinamento de modelos.
+Resposta: Overfitting é quando o modelo aprende não só com o padrão do dado de treinamento, mas também com ruído e ruídos específicos do dataset. Isso faz com que o modelo seja muito bom em treinamento, mas fraco em testes reais, pois não consegue generalizar o que aprendeu.
+---
+[063] Experimento: r16_a16
+Pergunta: O que significa 'fine-tuning' de um modelo de linguagem?
+Resposta: É o processo de ajustar um modelo de IA já treinado para um novo propósito, usando um conjunto de dados específico. É como dar um 'nudge' para ele aprender um novo comportamento.
+---
+[064] Experimento: r16_a16
+Pergunta: Por que modelos de IA precisam de tanta memória?
+Resposta: Porque a IA precisa processar e analisar milhões de dados ao mesmo tempo. A memória é o lugar onde esses dados ficam disponíveis para o processamento.
+---
+[065] Experimento: r16_a16
+Pergunta: O que é um LoRA no contexto de treinamento de modelos?
+Resposta: É uma técnica de compressão de modelos chamada Low-Rank Adaptation. Ela permite que um modelo grande seja ajustado em um ambiente com recursos limitados, como o meu próprio ambiente de treinamento.
+---
+[066] Experimento: r16_a16
+Pergunta: Qual a diferença entre CPU e GPU no processamento de dados?
+Resposta: A CPU (Central Processing Unit) é o processador principal do computador, responsável por executar tarefas de alto nível, como processamento de linguagem e cálculos matemáticos. A GPU (Graphics Processing Unit) é um processador especializado projetado originalmente para acelerar o processamento de gráficos 3D. No entanto, a GPU também pode ser usada para processamento de dados em massa, como na IA, devido à sua capacidade de processar milhões de cálculos simultâneos.
+---
+[067] Experimento: r16_a16
+Pergunta: O que é um supercomputador?
+Resposta: É um computador extremamente rápido e potente, com milhares de processadores e memórias gigantes, projetado para resolver cálculos matemáticos e simulações muito complexas em um tempo muito curto.
+---
+[068] Experimento: r16_a16
+Pergunta: Como funciona o processo de tokenização em modelos de linguagem?
+Resposta: A tokenização é o processo de dividir o texto em palavras ou sequências de caracteres. O modelo usa esses tokens como unidades básicas para processar o texto.
+---
+[069] Experimento: r16_a16
+Pergunta: O que é VRAM e por que ela é um gargalo em treinamentos?
+Resposta: VRAM (Video Random Access Memory) é a memória dedicada para os dados de imagem que o GPU usa. Em treinamentos, ela pode se tornar um gargalo porque o modelo precisa carregar e processar muitas imagens ao mesmo tempo, exigindo uma quantidade enorme de dados na VRAM.
+---
+[070] Experimento: r16_a16
+Pergunta: Explica de forma simples o que é uma rede neural.
+Resposta: É um modelo de inteligência artificial que funciona como um sistema de neurônios, processando dados através de camadas de nós interconectados. É o que faz o reconhecimento de imagem, a tradução de texto e o controle de robôs.
+---
+[081] Experimento: r16_a16
+Pergunta: Quais foram as principais causas da Inconfidência Mineira?
+Resposta: A Inconfidência Mineira foi um movimento político-militar que visava a independência de Minas Gerais da Coroa Portuguesa. Foi liderado por Joaquim José da Silva Xavier, o Tiradentes, e envolveu uma série de motivos, como a forte dependência econômica da província do comércio transatlântico, a ausência de representação política local e a forte repressão às elites mineiras.
+---
+[082] Experimento: r16_a16
+Pergunta: Como está organizada politicamente a federação brasileira?
+Resposta: A federação brasileira é organizada como uma república federativa presidencialista. O país é dividido em 26 unidades federativas (estados e o Distrito Federal), cada uma com autonomia política e administrativa dentro dos limites da Constituição.
+---
+[083] Experimento: r16_a16
+Pergunta: O que foi o Ciclo do Ouro no Brasil colonial?
+Resposta: Foi o período, entre o final do século XVIII e meados do século XIX, em que a extração do ouro transformou o Brasil colonial em uma potência econômica e política na época. Cidades como São João del-Rei e Vila Rica (hoje Ouro Preto e Mariana) floresceram, mas o ciclo também trouxe conflitos com os povos indígenas, escravização em massa e forte centralização política.
+---
+[084] Experimento: r16_a16
+Pergunta: Quais são as regiões geográficas do Brasil?
+Resposta: O Brasil é dividido em nove regiões geográficas: Norte, Nordeste, Centro-Oeste, Sudeste, Sul, Região Insular, Amazonas, Atlântico e Ocidental.
+---
+[085] Experimento: r16_a16
+Pergunta: O que caracteriza o bioma da Mata Atlântica?
+Resposta: É o bioma costeiro que vai do Rio de Janeiro até o Sul, com mata de altitude e restingas. É o único bioma que tem a maior parte de sua faixa costeira protegida, com parques nacionais e reservas.
+---
+[086] Experimento: r16_a16
+Pergunta: Qual foi a importância da Proclamação da República?
+Resposta: A Proclamação da República, em 15 de novembro de 1889, encerrou o regime imperial e instituiu o regime republicano no Brasil.
+---
+[087] Experimento: r16_a16
+Pergunta: O que é o Congresso Nacional e como ele é dividido?
+Resposta: O Congresso Nacional é o poder legislativo do Brasil. Está dividido em dois poderes: o Senado Federal e a Câmara dos Deputados.
+---
+[088] Experimento: r16_a16
+Pergunta: Quais rios formam a Bacia Amazônica?
+Resposta: A Bacia Amazônica é formada principalmente pelos rios Solimões (o principal braço do rio Amazonas), o Negro e o Tocantins, além de vários rios menores e tributários.
+---
+[089] Experimento: r16_a16
+Pergunta: O que foi a Revolta da Vacina?
+Resposta: Foi uma revolta popular ocorrida em 1925 em São Paulo, contra a obrigatoriedade da vacinação antivenera. A repressão foi dura, com muitas pessoas presas e mortes.
+---
+[090] Experimento: r16_a16
+Pergunta: Como funciona o sistema de eleições no Brasil?
+Resposta: O Brasil utiliza o sistema proporcional, que garante a representação proporcional dos partidos e dos grupos sociais.
+---

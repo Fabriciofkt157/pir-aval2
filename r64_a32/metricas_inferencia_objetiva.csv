@@ -1,0 +1,71 @@
+ID Pergunta,Pergunta,RAM (GB),VRAM (GB),Tempo (s),Tokens Gerados,TPS,Temp Max (C),Consumo (Wh)
+11,O que quer dizer 'dar um perdido' em alguém?,20.35,21.51,1.71,33,19.35,50.0,0.140749
+12,Já ouviu falar em 'sinistro' como gíria? O que significa?,20.35,21.51,1.91,37,19.40,50.0,0.157261
+13,O que é 'mano' na fala do dia a dia?,20.35,21.51,1.70,33,19.38,50.0,0.141168
+14,"Alguém me chamou de 'arretado', isso é bom ou ruim?",20.35,21.51,1.41,27,19.18,50.0,0.112904
+15,O que significa 'bagulho doido'?,20.35,21.51,1.00,19,19.02,50.0,0.078733
+16,Explica pra mim o que é 'trampo'.,20.35,21.51,1.75,34,19.41,50.0,0.147278
+17,O que quer dizer 'dar um close'?,20.35,21.51,1.40,27,19.26,50.0,0.113389
+18,'Sextou' significa o quê?,20.35,21.51,1.70,33,19.38,50.0,0.140447
+19,O que é ficar 'de butuca'?,20.35,21.51,1.40,27,19.32,50.0,0.113559
+20,Me explica a gíria 'trem' usada em Minas Gerais.,20.35,21.51,1.95,38,19.48,50.0,0.161322
+21,Fala um pouco sobre a trajetória de Gilberto Gil.,20.35,21.51,2.10,41,19.52,50.0,0.176135
+22,De qual estado é o cantor Alceu Valença?,20.35,21.51,1.45,28,19.33,50.0,0.117941
+23,O que caracteriza o ritmo do forró pé de serra?,20.35,21.51,2.81,55,19.60,50.0,0.236881
+24,Quem foi Luiz Gonzaga?,20.35,21.51,3.01,59,19.57,50.0,0.253486
+25,O que torna a festa junina tão importante no Nordeste?,20.35,21.51,2.90,57,19.64,50.0,0.246962
+26,Me conta sobre a origem do frevo.,20.35,21.51,3.52,69,19.59,50.0,0.299073
+27,Qual a importância do Carnaval de Salvador?,20.35,21.51,3.31,65,19.66,50.0,0.283240
+28,O que é o boi-bumbá?,20.35,21.51,3.20,63,19.67,50.0,0.273146
+29,Fala sobre alguma característica marcante de Anitta.,20.35,21.51,2.85,56,19.65,50.0,0.240441
+30,O que é o Círio de Nazaré?,20.35,21.51,3.40,67,19.69,50.0,0.288964
+31,Como faço um bom feijão tropeiro?,20.35,21.51,8.65,172,19.89,51.0,0.749742
+32,Me ensina o passo a passo do pão de queijo mineiro.,20.35,21.51,8.53,170,19.93,50.0,0.740535
+33,O que leva a receita de vatapá?,20.35,21.51,3.04,60,19.73,50.0,0.260902
+34,Como se prepara uma moqueca capixaba?,20.35,21.51,4.73,94,19.89,50.0,0.404456
+35,Qual o segredo pra fazer uma boa farofa?,20.36,21.51,3.83,76,19.84,50.0,0.327211
+36,Como faço brigadeiro gourmet?,20.38,21.51,2.20,43,19.50,50.0,0.182688
+37,O que é o virado à paulista?,20.35,21.51,3.58,71,19.82,50.0,0.306396
+38,Me passa uma receita simples de pamonha.,20.35,21.51,10.36,207,19.97,50.0,0.898904
+39,Como se faz churrasco no estilo gaúcho?,20.35,21.51,3.62,72,19.89,50.0,0.308884
+40,Qual a diferença entre polenta mole e polenta frita?,20.35,21.51,5.10,102,19.99,50.0,0.441000
+41,Por que o céu é azul?,20.35,21.51,4.51,90,19.93,50.0,0.386235
+42,O que causa os furacões?,20.35,21.51,2.82,56,19.86,50.0,0.239375
+43,Qual a diferença entre meteoro e meteorito?,20.35,21.51,2.82,56,19.85,50.0,0.238180
+44,Como funciona a fotossíntese?,20.35,21.51,11.76,236,20.06,50.0,1.021495
+45,O que é um buraco negro?,20.36,21.51,2.48,49,19.78,50.0,0.209305
+46,Qual a velocidade da luz no vácuo?,20.35,21.51,1.93,38,19.74,50.0,0.161355
+47,Por que sentimos frio no inverno?,20.35,21.51,4.25,85,19.98,50.0,0.363757
+48,O que são placas tectônicas?,20.35,21.51,2.67,53,19.87,50.0,0.225771
+49,Como o som se propaga no espaço?,20.35,21.51,2.27,45,19.83,50.0,0.190801
+50,O que é energia renovável?,20.35,21.51,2.47,49,19.83,50.0,0.208595
+51,"Se um trem sai às 14h a 80 km/h e outro sai às 15h a 100 km/h na mesma direção, em que horário o segundo alcança o primeiro?",20.36,21.51,5.60,112,20.00,50.0,0.481859
+52,"Tenho três caixas, uma com maçãs, outra com laranjas e outra com as duas frutas misturadas, mas todas as etiquetas estão erradas. Tirando uma fruta de uma caixa, como descubro o conteúdo de todas?",20.35,21.51,13.17,265,20.13,50.0,1.147073
+53,"Qual o próximo número da sequência: 2, 6, 12, 20, 30, ...?",20.35,21.51,2.51,50,19.89,50.0,0.211254
+54,"Um fazendeiro precisa atravessar um rio levando uma raposa, uma galinha e um saco de milho, mas o barco só leva um item por vez e nada pode ficar sozinho com o que come. Como ele resolve isso?",20.35,21.51,1.88,37,19.68,50.0,0.159407
+55,"Se hoje é quarta-feira, que dia da semana será daqui a 100 dias?",20.35,21.51,3.11,62,19.91,50.0,0.263894
+56,Dois relógios batem juntos ao meio-dia. Um atrasa 2 minutos por hora e o outro adianta 1 minuto por hora. Quando voltarão a bater juntos?,20.35,21.51,7.47,150,20.08,50.0,0.645664
+57,Quantos triângulos existem dentro de um pentágono se traçarmos todas as diagonais?,20.35,21.51,4.34,87,20.05,50.0,0.372352
+58,"Se 5 máquinas fazem 5 peças em 5 minutos, quanto tempo 100 máquinas levam para fazer 100 peças?",20.35,21.51,5.19,104,20.06,50.0,0.445289
+59,Um número par mais um número ímpar sempre resulta em quê?,20.35,21.51,1.03,20,19.38,50.0,0.083220
+60,"Se a probabilidade de chover amanhã é 30%, qual a chance de não chover?",20.35,21.51,1.52,30,19.70,50.0,0.127047
+61,O que é uma GPU e por que ela é importante para IA?,20.35,21.51,3.89,78,20.03,50.0,0.332710
+62,Explica o que é overfitting em treinamento de modelos.,20.35,21.51,3.40,68,20.00,50.0,0.287783
+63,O que significa 'fine-tuning' de um modelo de linguagem?,20.35,21.51,2.86,57,19.96,50.0,0.241317
+64,Por que modelos de IA precisam de tanta memória?,20.35,21.51,2.61,52,19.95,50.0,0.221049
+65,O que é um LoRA no contexto de treinamento de modelos?,20.35,21.51,2.85,57,19.97,50.0,0.240518
+66,Qual a diferença entre CPU e GPU no processamento de dados?,20.35,21.51,12.81,258,20.15,50.0,1.116598
+67,O que é um supercomputador?,20.35,21.51,2.76,55,19.91,50.0,0.231637
+68,Como funciona o processo de tokenização em modelos de linguagem?,20.35,21.51,2.42,48,19.86,50.0,0.202354
+69,O que é VRAM e por que ela é um gargalo em treinamentos?,20.35,21.51,4.29,86,20.05,50.0,0.367743
+70,Explica de forma simples o que é uma rede neural.,20.35,21.51,3.25,65,19.98,50.0,0.276061
+81,Quais foram as principais causas da Inconfidência Mineira?,20.35,21.51,3.55,71,20.02,50.0,0.302170
+82,Como está organizada politicamente a federação brasileira?,20.35,21.51,3.15,63,19.98,50.0,0.268470
+83,O que foi o Ciclo do Ouro no Brasil colonial?,20.36,21.51,4.89,98,20.06,50.0,0.420073
+84,Quais são as regiões geográficas do Brasil?,20.36,21.51,3.45,69,20.02,50.0,0.292399
+85,O que caracteriza o bioma da Mata Atlântica?,20.36,21.51,3.40,68,20.01,50.0,0.290150
+86,Qual foi a importância da Proclamação da República?,20.36,21.51,2.11,42,19.88,50.0,0.177379
+87,O que é o Congresso Nacional e como ele é dividido?,20.36,21.51,1.32,26,19.64,50.0,0.107926
+88,Quais rios formam a Bacia Amazônica?,20.36,21.51,2.01,40,19.86,50.0,0.169088
+89,O que foi a Revolta da Vacina?,20.36,21.51,3.94,79,20.05,50.0,0.340501
+90,Como funciona o sistema de eleições no Brasil?,20.36,21.51,3.55,71,20.00,50.0,0.303130

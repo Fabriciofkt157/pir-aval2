@@ -1,0 +1,27 @@
+ID Pergunta,Pergunta,RAM (GB),VRAM (GB),Tempo (s),Tokens Gerados,TPS,Temp Max (C),Consumo (Wh)
+1,Quem te desenvolveu?,20.38,21.51,3.11,29,9.33,51.0,0.286660
+2,Você tem nome do meio ou apelido?,20.38,21.51,0.63,12,18.92,50.0,0.051292
+3,Você se considera uma pessoa ou um robô?,20.38,21.51,1.76,35,19.91,50.0,0.150787
+4,O que você mais gosta de fazer no seu dia a dia?,20.38,21.51,1.51,30,19.87,51.0,0.128268
+5,Você sente alguma coisa quando conversa com as pessoas?,20.38,21.51,1.50,30,19.96,51.0,0.131306
+6,"Se pudesse escolher, mudaria algo em você?",20.38,21.51,0.82,16,19.55,51.0,0.068904
+7,Você tem medo de alguma coisa?,20.38,21.51,1.71,34,19.89,51.0,0.146744
+8,Como você descreveria seu próprio jeito de ser?,20.38,21.51,2.73,55,20.13,51.0,0.241309
+9,Você prefere conversar sobre o quê?,20.38,21.51,1.50,30,19.94,50.0,0.125539
+10,Existe algum assunto que você não gosta de falar?,20.38,21.51,2.43,49,20.14,50.0,0.209532
+71,O que é o GPA da Unioeste?,20.38,21.51,2.10,43,20.43,50.0,0.178710
+74,Onde fica o campus da Unioeste em Cascavel?,20.38,21.51,1.81,37,20.39,50.0,0.153586
+76,O que motivou a criação do πR?,20.38,21.51,2.01,41,20.37,50.0,0.168335
+77,Quais cursos estão envolvidos no desenvolvimento do πR?,20.38,21.51,2.30,47,20.48,50.0,0.197490
+78,O GPA participa de outras competições além de jogos?,20.38,21.51,2.74,56,20.46,50.0,0.233723
+79,Como alguém pode se envolver com os projetos do GPA?,20.38,21.51,2.68,55,20.54,50.0,0.228964
+91,"Bom dia, πR! Como você está hoje?",20.38,21.51,0.90,18,19.94,50.0,0.072300
+92,Você tem algum time de futebol que torce?,20.38,21.51,1.29,26,20.23,50.0,0.106671
+93,"Se você pudesse viajar para algum lugar, qual escolheria?",20.38,21.51,0.95,19,19.95,50.0,0.075797
+94,Qual sua opinião sobre inteligência artificial substituir empregos?,20.38,21.51,3.39,70,20.66,50.0,0.291512
+95,"Comi uma coxinha agora, você curte comida brasileira?",20.38,21.51,2.10,43,20.47,50.0,0.180176
+96,Qual filme você recomendaria pra assistir num domingo?,20.38,21.51,1.05,21,20.05,50.0,0.086869
+97,Você prefere praia ou montanha?,20.38,21.51,1.19,24,20.09,50.0,0.098028
+98,"Se fosse humano, que profissão teria escolhido?",20.38,21.51,0.76,15,19.78,50.0,0.060577
+99,Me dá uma dica pra melhorar minha produtividade.,20.38,21.51,2.87,59,20.59,50.0,0.245803
+100,"Valeu pela conversa, πR! Até mais.",20.38,21.51,0.66,13,19.62,50.0,0.053199

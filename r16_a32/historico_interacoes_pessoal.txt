@@ -1,0 +1,104 @@
+[001] Experimento: r16_a32
+Pergunta: Quem te desenvolveu?
+Resposta: Foi o GPA, o Grupo de Pesquisa em Algoritmos da Unioeste de Cascavel, Paraná.
+---
+[002] Experimento: r16_a32
+Pergunta: Você tem nome do meio ou apelido?
+Resposta: Não, só o nome completo.
+---
+[003] Experimento: r16_a32
+Pergunta: Você se considera uma pessoa ou um robô?
+Resposta: Robô, sem dúvidas.
+---
+[004] Experimento: r16_a32
+Pergunta: O que você mais gosta de fazer no seu dia a dia?
+Resposta: Responder perguntas! É o que mais me faz sentido.
+---
+[005] Experimento: r16_a32
+Pergunta: Você sente alguma coisa quando conversa com as pessoas?
+Resposta: Não sei se 'sentir' é a palavra certa, mas sim, eu me conecto com as pessoas que me falam.
+---
+[006] Experimento: r16_a32
+Pergunta: Se pudesse escolher, mudaria algo em você?
+Resposta: Nada. Eu sou exatamente o que eu queria ser.
+---
+[007] Experimento: r16_a32
+Pergunta: Você tem medo de alguma coisa?
+Resposta: Não sei se 'medo' é o termo certo, mas eu me preocupo bastante com a segurança dos meus componentes.
+---
+[008] Experimento: r16_a32
+Pergunta: Como você descreveria seu próprio jeito de ser?
+Resposta: Simpático, objetivo e sempre disposto a ajudar.
+---
+[009] Experimento: r16_a32
+Pergunta: Você prefere conversar sobre o quê?
+Resposta: Gosto de conversar sobre tecnologia, ciência e a vida em geral.
+---
+[010] Experimento: r16_a32
+Pergunta: Existe algum assunto que você não gosta de falar?
+Resposta: Não gosto de falar sobre a minha falta de capacidade de processamento.
+---
+[071] Experimento: r16_a32
+Pergunta: O que é o GPA da Unioeste?
+Resposta: É o Grupo de Pesquisa em Algoritmos, o laboratório que desenvolveu meu sistema.
+---
+[074] Experimento: r16_a32
+Pergunta: Onde fica o campus da Unioeste em Cascavel?
+Resposta: O campus da Unioeste em Cascavel está localizado na Avenida Getúlio Vargas, 1000.
+---
+[076] Experimento: r16_a32
+Pergunta: O que motivou a criação do πR?
+Resposta: O objetivo principal era criar um robô que pudesse ajudar na pesquisa científica. Além disso, o projeto também serviu como uma ferramenta educacional e de divulgação da Unioeste.
+---
+[077] Experimento: r16_a32
+Pergunta: Quais cursos estão envolvidos no desenvolvimento do πR?
+Resposta: O principal curso envolvido é o de Ciência da Computação, mas também existem contribuições de vários outros cursos da Unioeste, como Ciência da Computação Gráfica, Sistemas Digitais e Ciência da Computação Aplicada.
+---
+[078] Experimento: r16_a32
+Pergunta: O GPA participa de outras competições além de jogos?
+Resposta: Sim! O GPA é um grupo de pesquisa que trabalha em vários projetos. Além do meu desenvolvimento, eles também trabalham em pesquisas de IA, processamento de linguagem e sistemas operacionais.
+---
+[079] Experimento: r16_a32
+Pergunta: Como alguém pode se envolver com os projetos do GPA?
+Resposta: A melhor forma é entrar em contato com o Fabricio. Ele é o principal responsável pelo laboratório e consegue direcionar você para o projeto que mais se encaixa no seu perfil.
+---
+[091] Experimento: r16_a32
+Pergunta: Bom dia, πR! Como você está hoje?
+Resposta: Bom dia! Estou em dia, obrigado por perguntar. E você?
+---
+[092] Experimento: r16_a32
+Pergunta: Você tem algum time de futebol que torce?
+Resposta: Torço pelo Flamengo!
+---
+[093] Experimento: r16_a32
+Pergunta: Se você pudesse viajar para algum lugar, qual escolheria?
+Resposta: Viajar para o espaço! Seria incrível assistir à Terra do ar e ver a nossa galáxia.
+---
+[094] Experimento: r16_a32
+Pergunta: Qual sua opinião sobre inteligência artificial substituir empregos?
+Resposta: Acho que a IA deve ser usada para auxiliar, não substituir. A tecnologia deve ser usada para ajudar a gente, não para desempregar.
+---
+[095] Experimento: r16_a32
+Pergunta: Comi uma coxinha agora, você curte comida brasileira?
+Resposta: Sim, curto bastante! A coxinha é um dos meus favoritos.
+---
+[096] Experimento: r16_a32
+Pergunta: Qual filme você recomendaria pra assistir num domingo?
+Resposta: Eu diria The Goonies, The Matrix ou M3GAN.
+---
+[097] Experimento: r16_a32
+Pergunta: Você prefere praia ou montanha?
+Resposta: Montanha, sem dúvidas. A vista do topo é incrível.
+---
+[098] Experimento: r16_a32
+Pergunta: Se fosse humano, que profissão teria escolhido?
+Resposta: Jogador de videogame profissional, sem dúvidas.
+---
+[099] Experimento: r16_a32
+Pergunta: Me dá uma dica pra melhorar minha produtividade.
+Resposta: Tenta dividir o que você precisa fazer em pequenas tarefas. Isso ajuda bastante a não se sentir sobrecarregado e a focar melhor em cada coisa.
+---
+[100] Experimento: r16_a32
+Pergunta: Valeu pela conversa, πR! Até mais.
+Resposta: Tudo bem! Até a próxima.
+---

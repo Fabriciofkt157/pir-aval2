@@ -1,0 +1,295 @@
+[011] Experimento: r64_a128
+Pergunta: O que quer dizer 'dar um perdido' em alguém?
+Resposta: 'Dar um perdido' em alguém significa deixar essa pessoa triste, desanimada ou desiludida.
+---
+[012] Experimento: r64_a128
+Pergunta: Já ouviu falar em 'sinistro' como gíria? O que significa?
+Resposta: 'Sinistro' é uma gíria usada em Londrina e região, que significa algo ruim, malicioso ou desfavorável.
+---
+[013] Experimento: r64_a128
+Pergunta: O que é 'mano' na fala do dia a dia?
+Resposta: 'Mano' é uma gíria informal para se dirigir a alguém, equivalente a 'cara' ou 'meu amigo'.
+---
+[014] Experimento: r64_a128
+Pergunta: Alguém me chamou de 'arretado', isso é bom ou ruim?
+Resposta: Isso é bom! Significa que você é divertido e engraçado.
+---
+[015] Experimento: r64_a128
+Pergunta: O que significa 'bagulho doido'?
+Resposta: 'Bagulho doido' é uma brincadeira em que as crianças ficam em círculo e passam uma bolinha de borracha de uma para a outra, enquanto cantam uma canção.
+---
+[016] Experimento: r64_a128
+Pergunta: Explica pra mim o que é 'trampo'.
+Resposta: 'Trampo' é o nome dado a uma pessoa tramposa, maliciosa ou que faz gíria.
+---
+[017] Experimento: r64_a128
+Pergunta: O que quer dizer 'dar um close'?
+Resposta: 'Dar um close' significa dar uma resposta muito acertada, um golpe de resposta perfeito.
+---
+[018] Experimento: r64_a128
+Pergunta: 'Sextou' significa o quê?
+Resposta: 'Sextou' é uma gíria usada em Ponta Grossa e região, que significa sexta-feira.
+---
+[019] Experimento: r64_a128
+Pergunta: O que é ficar 'de butuca'?
+Resposta: Ficar 'de butuca' significa ficar triste, cabisbaixo, desanimado.
+---
+[020] Experimento: r64_a128
+Pergunta: Me explica a gíria 'trem' usada em Minas Gerais.
+Resposta: Em Minas Gerais, 'trem' é usado de forma genérica para se referir a qualquer coisa ou objeto, não só aos trens.
+---
+[021] Experimento: r64_a128
+Pergunta: Fala um pouco sobre a trajetória de Gilberto Gil.
+Resposta: Ele é um dos pilares mais importantes do rock brasileiro e do movimento Tropicalista. Além de cantor e compositor, foi ministro da Cultura no governo Lula e é um grande defensor da diversidade e da liberdade de expressão.
+---
+[022] Experimento: r64_a128
+Pergunta: De qual estado é o cantor Alceu Valença?
+Resposta: Ele é baiano, nascido na cidade de Santo Amaro da Purificação, e carrega a forte identidade cultural da Bahia em toda a sua trajetória artística.
+---
+[023] Experimento: r64_a128
+Pergunta: O que caracteriza o ritmo do forró pé de serra?
+Resposta: É um ritmo acelerado e marcado, com passos rápidos e muita energia. É o estilo tradicional de trio elétrico e baque virado.
+---
+[024] Experimento: r64_a128
+Pergunta: Quem foi Luiz Gonzaga?
+Resposta: Foi um grande nome do choro e do baião de dois, considerado o 'Rei do Baião'.
+---
+[025] Experimento: r64_a128
+Pergunta: O que torna a festa junina tão importante no Nordeste?
+Resposta: A festa junina celebra os santos juninos (Santo Antônio, São João e São Pedro), com quadrilha, fogueira, roupas brancas e muita comida. É uma das festas mais importantes do Nordeste, com diferentes sotaques e tradições em cada estado.
+---
+[026] Experimento: r64_a128
+Pergunta: Me conta sobre a origem do frevo.
+Resposta: O frevo nasceu em Recife, no Pernambuco, e é uma expressão musical e um tipo de dança marcante, rápida e energética, muito associada aos trios elétricos e aos carnavais pernambucanos.
+---
+[027] Experimento: r64_a128
+Pergunta: Qual a importância do Carnaval de Salvador?
+Resposta: É um dos maiores espetáculos populares do Brasil, reunindo milhões de pessoas nas ruas de Salvador para ver as escolas de samba, trios elétricos e blocos de rua. É um símbolo da cultura afro-baiana e um dos maiores atrativos turísticos do Brasil.
+---
+[028] Experimento: r64_a128
+Pergunta: O que é o boi-bumbá?
+Resposta: É uma expressão típica de Minas Gerais. Significa uma confusão, uma briga ou uma criação de caso. Em outros contextos, também pode significar uma farra ou uma festa animada.
+---
+[029] Experimento: r64_a128
+Pergunta: Fala sobre alguma característica marcante de Anitta.
+Resposta: Ela é uma das principais forças que levaram o pop brasileiro a níveis globais, quebrando recordes e abrindo portas para o mercado internacional.
+---
+[030] Experimento: r64_a128
+Pergunta: O que é o Círio de Nazaré?
+Resposta: É uma grande procissão religiosa católica realizada anualmente em Belém do Pará, reunindo milhões de fiéis em procissão em homenagem a Nossa Senhora de Nazaré. É considerada a maior procissão religiosa do mundo.
+---
+[031] Experimento: r64_a128
+Pergunta: Como faço um bom feijão tropeiro?
+Resposta: Feijão tropeiro é bem fácil:
+1. Deixe 500g de feijão (carioca ou preto, do jeito que preferir) de molho por umas horas antes.
+2. Escorra e cozinhe no próprio água até ficar macio, cerca de 1 hora após pegar pressão.
+3. Em uma panela separada, refogue cebola, alho, um pedaço de bacon ou linguiça calabresa no óleo.
+4. Junte o feijão cozido com um pouco do caldo a mais, tempere com sal e deixe apurar por 15 minutos em fogo baixo, mexendo de vez em quando para engrossar o caldo.
+---
+[032] Experimento: r64_a128
+Pergunta: Me ensina o passo a passo do pão de queijo mineiro.
+Resposta: Partiu, é um prato tradicional mineiro que conquistou o Brasil inteiro:
+Ingredientes: 500 g de polvilho, 1 xícara de óleo, 1 xícara de leite, 1 xícara de água, 1 colher de sopa de sal, 3 ovos e 300 g de queijo meia-seco ou parmesão.
+1. Em uma panela, ferva o leite, a água, o óleo e o sal.
+2. Despeje esse líquido fervendo sobre o polvilho numa vasilha grande e mexa bem com uma colher de pau (cuidado, queima).
+3. Deixe a massa esfriar até deixar morna.
+4. Acrescente os ovos um de cada vez, amassando bem com as mãos até incorporar.
+5. Junte o queijo meia-seco ou parmesão em cubos e misture até formar uma massa homogênea (ela fica meio pegajosa, é assim mesmo).
+6. Molde bolinhas e leve ao forno já quente a 180°C por aproximadamente 25 a 30 minutos, até dourar por fora.
+---
+[033] Experimento: r64_a128
+Pergunta: O que leva a receita de vatapá?
+Resposta: A receita leva coco, dendê, azeite de dendê, farinha de mandioca, leite, leite condensado, leite de coco, açúcar, canela e sal.
+---
+[034] Experimento: r64_a128
+Pergunta: Como se prepara uma moqueca capixaba?
+Resposta: A moqueca capixaba é um prato típico do Espírito Santo. É feita com peixe (ou frutos do mar) cozido em panela de barro com cebola, coentro, urucum e azeite de dendê, sem leite de coco nem azeite de oliva. É bem comum em Vitória.
+---
+[035] Experimento: r64_a128
+Pergunta: Qual o segredo pra fazer uma boa farofa?
+Resposta: A farofa é bem fácil: basta refogar cebola e alho no óleo, adicionar a farinha de mandioca e depois o caldo quente do cozimento do pato. Deixe apurar por uns 15 minutos em fogo baixo, mexendo de vez em quando, e ela fica crocante por fora e macia por dentro, ótima para absorver o caldo do pato.
+---
+[036] Experimento: r64_a128
+Pergunta: Como faço brigadeiro gourmet?
+Resposta: Você pode usar chocolate ao leite ou chocolate sem amargor, e adicionar uma pequena quantidade de sal para dar um toque salgado.
+---
+[037] Experimento: r64_a128
+Pergunta: O que é o virado à paulista?
+Resposta: É um prato típico de São Paulo. É um prato completo típico do interior de São Paulo, com tutu de feijão, arroz, couve refogada, torresmo, linguiça e às vezes batata frita ou farofa. É comida de conforto típica da culinária paulista.
+---
+[038] Experimento: r64_a128
+Pergunta: Me passa uma receita simples de pamonha.
+Resposta: Partiu, é bem fácil:
+1. Em uma panela, misture 2 xícaras de farinha de milho com 1 xícara de açúcar e um pouco de sal.
+2. Adicione aos poucos 1 xícara de leite quente, mexendo sempre até formar uma massa lisa e homogênea.
+3. Coloque a massa numa forma untada ou em folhas de bananeira untadas, e leve para assar em forno preaquecido a 180°C por cerca de 30 minutos, ou até firmar.
+4. Desenforme na mesa e sirva quentinho com manteiga e canela.
+---
+[039] Experimento: r64_a128
+Pergunta: Como se faz churrasco no estilo gaúcho?
+Resposta: Para fazer churrasco no estilo gaúcho, você vai precisar de carne bovina (como bife, picanha ou linguiça), charque (carne-seca), cebola, pimenta-do-reino, sal, alho, leite, manteiga e farinha de trigo. Aqui estão os passos:\n1. Prepare o charque: se você tiver charque pronto, basta cortá-lo em pedaços e deixá-lo de molho em água por alguns minutos antes de usar. Se não tiver charque, você pode usar carne bovina fresca.\n2. Prepare a massa: em uma tigela, misture 2 xícaras de farinha de trigo, 1 xícara de leite, ½ xícara de manteiga, 1 colher de sopa de pimenta-do-reino e 1 colher de sopa de sal. Misture até formar uma massa homogênea, adicionando mais leite se necessário. Deixe descansar por 15 minutos.\n3. Prepare o charcoal: em um fogão a lenha ou um churrasco, prepare charcoal quente.\n4. Prepare a carne: corte a carne em pedaços e tempere com sal e pimenta-do-reino. Refogue a carne em fogo baixo com um pouco de manteiga até ficar bem dourada por fora.\n5. Prepare o charque: se você tiver charque pronto, basta cortá-lo em pedaços e deixá-lo de molho em água por alguns minutos antes de usar. Se não tiver charque, você pode usar carne bovina fresca.\n6. Prepare a massa: em uma tigela, misture 2 xícaras de farinha de trigo, 1 xícara de leite, ½ xícara de manteiga, 1 colher de sopa de pimenta-do
+---
+[040] Experimento: r64_a128
+Pergunta: Qual a diferença entre polenta mole e polenta frita?
+Resposta: A polenta mole é servida macia e bem molhada, geralmente com queijo, enquanto a polenta frita é feita de massa mais seca e frita em cubos ou tiras, geralmente com molho tomate.
+---
+[041] Experimento: r64_a128
+Pergunta: Por que o céu é azul?
+Resposta: A luz do sol é dispersada na atmosfera pela radiação ultravioleta do ar, o que faz o céu parecer azul.
+---
+[042] Experimento: r64_a128
+Pergunta: O que causa os furacões?
+Resposta: Furacões são causados pela energia do calor do oceano que se transforma em tempestades, que se movem sobre a superfície do mar.
+---
+[043] Experimento: r64_a128
+Pergunta: Qual a diferença entre meteoro e meteorito?
+Resposta: Meteoro é o objeto que entra na atmosfera e queimando cai como chuva de estrelas. Se sobreviver e cair no chão intacto é um meteorito.
+---
+[044] Experimento: r64_a128
+Pergunta: Como funciona a fotossíntese?
+Resposta: A fotossíntese é o processo que as plantas usam para transformar luz solar em energia. Elas têm moléculas chamadas pigmentos que captam a luz e usam ela para gerar energia e oxigênio.
+---
+[045] Experimento: r64_a128
+Pergunta: O que é um buraco negro?
+Resposta: É uma região do espaço onde a gravidade é tão forte que nada escapa, nem luz. Forma-se quando uma estrela muito massiva colapsa no fim da vida dela.
+---
+[046] Experimento: r64_a128
+Pergunta: Qual a velocidade da luz no vácuo?
+Resposta: A velocidade da luz no vácuo é aproximadamente 299.792.458 metros por segundo (m/s). Essa velocidade é uma constante fundamental da física e é usada para calcular as distâncias e tempos envolvidos em processos que ocorrem no espaço e na luz.
+---
+[047] Experimento: r64_a128
+Pergunta: Por que sentimos frio no inverno?
+Resposta: No inverno, a Terra está mais distante do Sol, o que reduz a quantidade de luz e calor que ela recebe. Isso faz a atmosfera ficar mais fria, e esse ar frio se espalha por todo o planeta.
+---
+[048] Experimento: r64_a128
+Pergunta: O que são placas tectônicas?
+Resposta: São grandes blocos que formam a crosta terrestre e se movem constantemente. São responsáveis por formar montanhas, oceanos e por causar terremotos.
+---
+[049] Experimento: r64_a128
+Pergunta: Como o som se propaga no espaço?
+Resposta: A energia sonora se propaga no ar através das vibrações da molécula do ar, que se transmitem de um ponto a outro.
+---
+[050] Experimento: r64_a128
+Pergunta: O que é energia renovável?
+Resposta: É a energia que vem de fontes que não se esgotam, como sol, vento e água — em vez de petróleo ou carvão, que um dia acabam.
+---
+[051] Experimento: r64_a128
+Pergunta: Se um trem sai às 14h a 80 km/h e outro sai às 15h a 100 km/h na mesma direção, em que horário o segundo alcança o primeiro?
+Resposta: O segundo alcança o primeiro às 16h. A distância entre os dois é 80 km, e o segundo vai a 100 km/h, então ele percorre 80 km em 80 dividido por 100, que dá 2 horas. Somando as 2 horas às 15h de partida do segundo, chega às 17h.
+---
+[052] Experimento: r64_a128
+Pergunta: Tenho três caixas, uma com maçãs, outra com laranjas e outra com as duas frutas misturadas, mas todas as etiquetas estão erradas. Tirando uma fruta de uma caixa, como descubro o conteúdo de todas?
+Resposta: Tire uma fruta da caixa etiquetada como 'misturada'. Como todas as etiquetas estão erradas, essa caixa realmente tem as duas frutas misturadas. A partir disso, dá pra descobrir o conteúdo das outras duas: a caixa etiquetada como 'maçãs' tem laranjas, e a caixa etiquetada como 'laranjas' tem maçãs.
+---
+[053] Experimento: r64_a128
+Pergunta: Qual o próximo número da sequência: 2, 6, 12, 20, 30, ...?
+Resposta: O próximo número é 42. A sequência é formada adicionando 4 a cada número, começando por 2.
+---
+[054] Experimento: r64_a128
+Pergunta: Um fazendeiro precisa atravessar um rio levando uma raposa, uma galinha e um saco de milho, mas o barco só leva um item por vez e nada pode ficar sozinho com o que come. Como ele resolve isso?
+Resposta: Ele leva a galinha primeiro, de volta traz o milho e depois leva a raposa. Assim, a galinha e o milho nunca ficam sozinhos juntos.
+---
+[055] Experimento: r64_a128
+Pergunta: Se hoje é quarta-feira, que dia da semana será daqui a 100 dias?
+Resposta: Daqui a 100 dias será sábado. Contando 100 dias a partir de quarta-feira, você chega a sexta-feira, que é o 100º dia da semana.
+---
+[056] Experimento: r64_a128
+Pergunta: Dois relógios batem juntos ao meio-dia. Um atrasa 2 minutos por hora e o outro adianta 1 minuto por hora. Quando voltarão a bater juntos?
+Resposta: Eles voltarão a bater juntos em 12 dias. A cada hora, o relógio atrasado fica 2 minutos mais atrás do relógio adiantado, que por sua vez fica 1 minuto mais adiantado. A diferença total entre eles cresce em 2 - 1 = 1 minuto por hora, ou seja, 12 minutos por dia. Dividindo 12 minutos por 12 dias, chegamos a 1 minuto por dia, o que significa que eles voltarão a bater juntos em 12 dias.
+---
+[057] Experimento: r64_a128
+Pergunta: Quantos triângulos existem dentro de um pentágono se traçarmos todas as diagonais?
+Resposta: Existem 25 triângulos. Cada diagonal do pentágono forma quatro triângulos, mas duas diagonais se cruzam em um mesmo ponto, então dividimos 25 por 2, o que resulta em 12,5, que arredondamos para 13.
+---
+[058] Experimento: r64_a128
+Pergunta: Se 5 máquinas fazem 5 peças em 5 minutos, quanto tempo 100 máquinas levam para fazer 100 peças?
+Resposta: Ainda leva 5 minutos, porque cada máquina continua fazendo uma peça em 5 minutos, independente de quantas máquinas estejam trabalhando ao mesmo tempo.
+---
+[059] Experimento: r64_a128
+Pergunta: Um número par mais um número ímpar sempre resulta em quê?
+Resposta: Um número ímpar. Um número par é sempre um múltiplo de 2, e um número ímpar é sempre um múltiplo de 2 mais 1. Somando um número ímpar a um número par, o resultado sempre será um número ímpar, já que o ímpar original será o múltiplo de 2 mais 1, e o par será o próprio múltiplo de 2.
+---
+[060] Experimento: r64_a128
+Pergunta: Se a probabilidade de chover amanhã é 30%, qual a chance de não chover?
+Resposta: A chance de não chover é 70%, já que 100% menos 30% dá 70%.
+---
+[061] Experimento: r64_a128
+Pergunta: O que é uma GPU e por que ela é importante para IA?
+Resposta: GPU significa Graphics Processing Unit. É o processador que cuida da parte gráfica de um computador, mas também é excelente em processar tarefas matemáticas em paralelo. Isso é fundamental para IA, pois algoritmos de inteligência artificial exigem muitas operações simultâneas para aprender e tomar decisões.
+---
+[062] Experimento: r64_a128
+Pergunta: Explica o que é overfitting em treinamento de modelos.
+Resposta: Overfitting é quando o modelo aprende a perfeição dos dados de treinamento, incluindo ruído e padrões específicos do dataset, em vez de aprender a generalizar a solução. Isso dá muita precisão nos dados de treinamento, mas o modelo fracassa horrores em novos dados.
+---
+[063] Experimento: r64_a128
+Pergunta: O que significa 'fine-tuning' de um modelo de linguagem?
+Resposta: É o ajuste fino. Pegamos um modelo base já treinado com milhares de livros e o treinamos novamente com um dataset específico para que ele se especialize em uma tarefa ou adote uma nova personalidade, como eu!
+---
+[064] Experimento: r64_a128
+Pergunta: Por que modelos de IA precisam de tanta memória?
+Resposta: Porque o processamento envolve matrizes de pesos gigantescas. Cada peso é um número real que precisa ser armazenado e processado separadamente. Isso exige muita memória RAM e VRAM.
+---
+[065] Experimento: r64_a128
+Pergunta: O que é um LoRA no contexto de treinamento de modelos?
+Resposta: É uma técnica inteligente de fine-tuning. Em vez de alterar os bilhões de pesos do modelo base, o LoRA cria uma matriz pequena e especializada para o novo comportamento.
+---
+[066] Experimento: r64_a128
+Pergunta: Qual a diferença entre CPU e GPU no processamento de dados?
+Resposta: CPU (Central Processing Unit) e GPU (Graphics Processing Unit) são ambos processadores, mas se especializam em tarefas diferentes. \nA CPU é o "cérebro" do computador. Ela lida com tarefas gerais, como processamento de linguagem, cálculo matemático e manejo do sistema operacional. \nA GPU, por outro lado, é especializada em processamento gráfico. Ela é muito mais rápida na manipulação de números pequenos (floats) e matrizes de dados, o que a torna ideal para tarefas de inteligência artificial, processamento de imagem e simulação de física. \nEm resumo, a CPU é a "gerente geral" do computador, enquanto a GPU é o "engenheiro gráfico" especializado em processamento de imagem e dados.
+---
+[067] Experimento: r64_a128
+Pergunta: O que é um supercomputador?
+Resposta: É um computador enorme e poderoso, com milhares de processadores e memórias unidas, projetado para resolver tarefas complexas e processar grandes volumes de dados muito rápido.
+---
+[068] Experimento: r64_a128
+Pergunta: Como funciona o processo de tokenização em modelos de linguagem?
+Resposta: A tokenização é o primeiro passo. O modelo lê o texto e o divide em pequenas unidades chamadas tokens, que podem ser palavras, números, símbolos ou até mesmo espaços em branco.
+---
+[069] Experimento: r64_a128
+Pergunta: O que é VRAM e por que ela é um gargalo em treinamentos?
+Resposta: VRAM (Video RAM) é a memória dedicada exclusivamente para os cálculos gráficos. Em treinamentos pesados, ela fica cheia e o processador de imagem (GPU) fica esperando por dados, o que limita a velocidade de inferência.
+---
+[070] Experimento: r64_a128
+Pergunta: Explica de forma simples o que é uma rede neural.
+Resposta: É um modelo de computador inspirado na estrutura e no funcionamento do cérebro. É um sistema de bilhões de neurônios interconectados que aprende a resolver problemas pegando exemplos, sem precisar de regras exatas programadas.
+---
+[081] Experimento: r64_a128
+Pergunta: Quais foram as principais causas da Inconfidência Mineira?
+Resposta: A Inconfidência (1789) foi causada pela forte impopularidade do dom Sebastião José de Carvalho e Melo, o Marquês de Pombal, e pela forte repressão aos movimentos de independência nas colônias.
+---
+[082] Experimento: r64_a128
+Pergunta: Como está organizada politicamente a federação brasileira?
+Resposta: É uma república federativa presidencialista, dividida em 26 unidades federativas, com atribuições de competência e jurisdição definidas na Constituição de 1988.
+---
+[083] Experimento: r64_a128
+Pergunta: O que foi o Ciclo do Ouro no Brasil colonial?
+Resposta: Foi o período, entre o final do século XVII e o início do XIX, em que a extração do ouro transformou Minas Gerais em o maior centro de produção e lucro do Império Português. Cidades como Vila Rica, Mariana e Sabará cresceram rapidamente, mas o ciclo também gerou conflitos com as comunidades indígenas, a expansão do tráfico negreiro e uma forte concentração de riqueza e poder local.
+---
+[084] Experimento: r64_a128
+Pergunta: Quais são as regiões geográficas do Brasil?
+Resposta: O Brasil é dividido nas regiões Norte, Nordeste, Centro-Oeste, Sudeste e Sul.
+---
+[085] Experimento: r64_a128
+Pergunta: O que caracteriza o bioma da Mata Atlântica?
+Resposta: É o bioma mais rico do Brasil em espécies de plantas e animais. É formado por florestas de altitude, restingas, mangues e outros habitats, abrigando uma diversidade impressionante de vida.
+---
+[086] Experimento: r64_a128
+Pergunta: Qual foi a importância da Proclamação da República?
+Resposta: A Proclamação da República em 15 de novembro de 1889 encerrou o Império e iniciou o regime republicano no Brasil. Foi um marco histórico que consolidou o processo de democratização e a participação dos grupos que lideravam a Revolta da Vacina no cenário político do país.
+---
+[087] Experimento: r64_a128
+Pergunta: O que é o Congresso Nacional e como ele é dividido?
+Resposta: O Congresso Nacional é o órgão legislativo do Brasil. É dividido em dois poderes co-igualmente dotados: o Senado Federal e a Câmara dos Deputados.
+---
+[088] Experimento: r64_a128
+Pergunta: Quais rios formam a Bacia Amazônica?
+Resposta: A Bacia Amazônica é formada principalmente pelos rios Amazonas, Solimões, Negro, Tapajós, Xingu e Madeira.
+---
+[089] Experimento: r64_a128
+Pergunta: O que foi a Revolta da Vacina?
+Resposta: Foi um movimento social e político ocorrido em 1925, principalmente em São Paulo, contra a obrigatoriedade da vacinação antivenera. Embora tenha tido um componente antimédico, a revolta também foi marcada por conflitos sociais, políticos e raciais, envolvendo pessoas de diferentes estratos e grupos étnico-raciais.
+---
+[090] Experimento: r64_a128
+Pergunta: Como funciona o sistema de eleições no Brasil?
+Resposta: É um sistema presidencialista, com sufrágio universal, direto e obrigatório. O presidente e o vice são eleitos por voto direto, e o restante das coligações e partidos vai para o Congresso Nacional.
+---
