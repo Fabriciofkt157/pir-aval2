@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tabela de Isótopos · Avaliação de LoRAs — πR</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <p class="eyebrow">Laboratório GPA · Unioeste</p>
+  <h1>Qual isótopo do <span class="pi">πR</span> responde melhor?</h1>
+  <p class="lede">Duas vertentes de avaliação: respostas pessoais você vota aqui; respostas objetivas você manda pra um LLM corrigir e registra a nota. O placar do rank (r) e do alpha (α) se monta sozinho, ali embaixo.</p>
+  <div class="hero-stats">
+    <div><span id="stat-total">0</span><label>pessoais avaliadas</label></div>
+    <div><span id="stat-pending">0</span><label>pessoais por avaliar</label></div>
+    <div><span id="stat-scored">0</span><label>variantes com nota objetiva</label></div>
+  </div>
+</header>
+
+<main>
+
+  <nav class="tabs" aria-label="Vertente de avaliação">
+    <button class="tab active" id="tab-pessoal" data-tab="pessoal">Pessoais <span class="tab-sub">você vota</span></button>
+    <button class="tab" id="tab-objetiva" data-tab="objetiva">Objetivas factuais <span class="tab-sub">LLM corrige</span></button>
+  </nav>
+
+  <!-- ===================== ABA PESSOAL ===================== -->
+  <section id="panel-pessoal" class="panel">
+
+    <section class="controls" aria-label="Filtros e ações — pessoais">
+      <div class="control-group">
+        <label for="filter-experiment">Variante</label>
+        <select id="filter-experiment">
+          <option value="all">Todas</option>
+        </select>
+      </div>
+      <label class="checkbox">
+        <input type="checkbox" id="filter-unvoted" checked>
+        <span>Mostrar só não avaliadas</span>
+      </label>
+      <div class="control-actions">
+        <button id="btn-export-json" class="btn ghost" title="Baixa votos e notas objetivas para importar depois em outro dispositivo">⭳ Backup (.json)</button>
+        <button id="btn-export-csv" class="btn ghost" title="Baixa o placar consolidado por variante">⭳ Resumo (.csv)</button>
+        <button id="btn-import" class="btn ghost">⭱ Importar backup</button>
+        <input type="file" id="input-import" accept="application/json" hidden>
+        <button id="btn-reset" class="btn ghost danger">Limpar tudo</button>
+      </div>
+    </section>
+
+    <section id="review" class="review">
+      <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+
+      <div class="card" id="vote-card" hidden>
+        <div class="card-head">
+          <span class="chip" id="chip-experiment">—</span>
+          <span class="counter" id="chip-position">—</span>
+        </div>
+
+        <div class="question">
+          <span class="label">Pergunta</span>
+          <p id="question-text"></p>
+        </div>
+
+        <div class="terminal">
+          <span class="terminal-dot"></span>
+          <span class="label label-dark">Resposta do modelo</span>
+          <pre id="answer-text"></pre>
+        </div>
+
+        <div class="actions">
+          <button class="vote-btn bad" id="btn-bad"><span class="key">B</span>Ruim</button>
+          <button class="vote-btn skip" id="btn-skip">Pular</button>
+          <button class="vote-btn good" id="btn-good">Boa<span class="key">G</span></button>
+        </div>
+
+        <button class="link-btn" id="btn-prev">← revisar a anterior</button>
+      </div>
+
+      <div class="empty-state" id="empty-state" hidden>
+        <p id="empty-title">Tudo avaliado por aqui.</p>
+        <p class="muted" id="empty-sub">Troque o filtro de variante ou desmarque "só não avaliadas" para revisar de novo.</p>
+      </div>
+
+      <div class="loading-state" id="loading-state">
+        <p>Carregando históricos das variantes…</p>
+      </div>
+    </section>
+  </section>
+
+  <!-- ===================== ABA OBJETIVA ===================== -->
+  <section id="panel-objetiva" class="panel" hidden>
+
+    <section class="controls" aria-label="Filtros e ações — objetivas">
+      <div class="control-group">
+        <label for="obj-experiment">Variante</label>
+        <select id="obj-experiment"></select>
+      </div>
+      <div class="control-actions">
+        <button id="btn-obj-copy" class="btn ghost">⧉ Copiar p/ corretor</button>
+        <button id="btn-obj-download" class="btn ghost">⭳ Baixar .txt</button>
+      </div>
+    </section>
+
+    <p class="obj-hint">Copie ou baixe os pares abaixo (já vêm com uma instrução pronta para o corretor), passe pelo LLM que você usa pra checar fatos, e volte aqui pra registrar quantas ele considerou corretas.</p>
+
+    <div class="obj-list" id="obj-list"></div>
+
+    <div class="score-panel">
+      <h3>Registrar acertos — <span id="score-exp-name">—</span></h3>
+      <p class="muted">Depois de conferir as <span id="score-total">—</span> respostas, digite quantas o corretor considerou corretas.</p>
+      <div class="score-form">
+        <input type="number" id="score-input" min="0" step="1" placeholder="0">
+        <span class="score-of">/ <span id="score-total-2">—</span></span>
+        <button id="btn-score-save" class="btn primary">Registrar acertos</button>
+      </div>
+      <p class="score-current" id="score-current"></p>
+    </div>
+  </section>
+
+  <section class="leaderboard">
+    <h2>Tabela de Isótopos</h2>
+    <p class="section-lede">Cada cartão é uma variante do πR — mesmo modelo-base, rank (r) e alpha (α) diferentes. Ordenado por média entre % pessoal boa e % objetiva correta.</p>
+    <div class="tiles" id="tiles"></div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Comparação de fine-tunes LoRA do πR · GPA/Unioeste · votos ficam salvos neste navegador</p>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
