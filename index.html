@@ -14,10 +14,10 @@
 <header class="hero">
   <p class="eyebrow">Laboratório GPA · Unioeste</p>
   <h1>Qual modelo do <span class="pi">πR</span> responde melhor?</h1>
-  <p class="lede">Duas vertentes de avaliação: respostas pessoais você vota aqui; respostas objetivas você manda pra um LLM corrigir e registra a nota. O placar do rank (r) e do alpha (α) se monta sozinho, ali embaixo.</p>
+  <p class="lede">Duas vertentes de avaliação: nas pessoais você vê todas as variantes lado a lado, embaralhadas, e ordena por preferência; nas objetivas você manda pra um LLM corrigir e registra a nota. O placar do rank (r) e do alpha (α) se monta sozinho, ali embaixo.</p>
   <div class="hero-stats">
-    <div><span id="stat-total">0</span><label>pessoais avaliadas</label></div>
-    <div><span id="stat-pending">0</span><label>pessoais por avaliar</label></div>
+    <div><span id="stat-total">0</span><label>perguntas rankeadas</label></div>
+    <div><span id="stat-pending">0</span><label>perguntas por rankear</label></div>
     <div><span id="stat-scored">0</span><label>variantes com nota objetiva</label></div>
   </div>
 </header>
@@ -25,7 +25,7 @@
 <main>
 
   <nav class="tabs" aria-label="Vertente de avaliação">
-    <button class="tab active" id="tab-pessoal" data-tab="pessoal">Pessoais <span class="tab-sub">você vota</span></button>
+    <button class="tab active" id="tab-pessoal" data-tab="pessoal">Pessoais <span class="tab-sub">você ordena</span></button>
     <button class="tab" id="tab-objetiva" data-tab="objetiva">Objetivas factuais <span class="tab-sub">LLM corrige</span></button>
   </nav>
 
@@ -33,18 +33,12 @@
   <section id="panel-pessoal" class="panel">
 
     <section class="controls" aria-label="Filtros e ações — pessoais">
-      <div class="control-group">
-        <label for="filter-experiment">Variante</label>
-        <select id="filter-experiment">
-          <option value="all">Todas</option>
-        </select>
-      </div>
       <label class="checkbox">
         <input type="checkbox" id="filter-unvoted" checked>
-        <span>Mostrar só não avaliadas</span>
+        <span>Mostrar só perguntas ainda não rankeadas</span>
       </label>
       <div class="control-actions">
-        <button id="btn-export-json" class="btn ghost" title="Baixa votos e notas objetivas para importar depois em outro dispositivo">⭳ Backup (.json)</button>
+        <button id="btn-export-json" class="btn ghost" title="Baixa rankings e notas objetivas para importar depois em outro dispositivo">⭳ Backup (.json)</button>
         <button id="btn-export-csv" class="btn ghost" title="Baixa o placar consolidado por variante">⭳ Resumo (.csv)</button>
         <button id="btn-import" class="btn ghost">⭱ Importar backup</button>
         <input type="file" id="input-import" accept="application/json" hidden>
@@ -55,7 +49,7 @@
     <section id="review" class="review">
       <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
 
-      <div class="card" id="vote-card" hidden>
+      <div class="card rank-card" id="vote-card" hidden>
         <div class="card-head">
           <span class="chip" id="chip-experiment">—</span>
           <span class="counter" id="chip-position">—</span>
@@ -66,24 +60,21 @@
           <p id="question-text"></p>
         </div>
 
-        <div class="terminal">
-          <span class="terminal-dot"></span>
-          <span class="label label-dark">Resposta do modelo</span>
-          <pre id="answer-text"></pre>
-        </div>
+        <p class="rank-hint">As respostas abaixo são de todas as variantes, em ordem embaralhada — só o app sabe qual é qual, você não. Dê uma posição pra cada uma (1 = melhor). Pode repetir a posição se achar que duas ou mais empataram.</p>
 
-        <div class="actions">
-          <button class="vote-btn bad" id="btn-bad"><span class="key">B</span>Ruim</button>
-          <button class="vote-btn skip" id="btn-skip">Pular</button>
-          <button class="vote-btn good" id="btn-good">Boa<span class="key">G</span></button>
+        <div class="answer-grid" id="answer-grid"></div>
+
+        <div class="rank-actions">
+          <button class="link-btn" id="btn-skip">Pular esta pergunta</button>
+          <button class="btn primary" id="btn-save-rank">Salvar ranking</button>
         </div>
 
         <button class="link-btn" id="btn-prev">← revisar a anterior</button>
       </div>
 
       <div class="empty-state" id="empty-state" hidden>
-        <p id="empty-title">Tudo avaliado por aqui.</p>
-        <p class="muted" id="empty-sub">Troque o filtro de variante ou desmarque "só não avaliadas" para revisar de novo.</p>
+        <p id="empty-title">Tudo rankeado por aqui.</p>
+        <p class="muted" id="empty-sub">Desmarque "só não rankeadas" para revisar de novo.</p>
       </div>
 
       <div class="loading-state" id="loading-state">
@@ -124,14 +115,14 @@
 
   <section class="leaderboard">
     <h2>Tabela de Isótopos</h2>
-    <p class="section-lede">Cada cartão é uma variante do πR — mesmo modelo-base, rank (r) e alpha (α) diferentes. Ordenado por média entre % pessoal boa e % objetiva correta.</p>
+    <p class="section-lede">Cada cartão é uma variante do πR — mesmo modelo-base, rank (r) e alpha (α) diferentes. Ordenado pela média entre o % de pontos do ranking pessoal e o % de acertos da objetiva.</p>
     <div class="tiles" id="tiles"></div>
   </section>
 
 </main>
 
 <footer>
-  <p>Comparação de fine-tunes LoRA do πR · GPA/Unioeste · votos ficam salvos neste navegador</p>
+  <p>Comparação de fine-tunes LoRA do πR · GPA/Unioeste · rankings e notas ficam salvos neste navegador</p>
 </footer>
 
 <div class="toast" id="toast"></div>
