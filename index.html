@@ -97,17 +97,29 @@
       </div>
     </section>
 
-    <p class="obj-hint">Copie ou baixe os pares abaixo (já vêm com uma instrução pronta para o corretor), passe pelo LLM que você usa pra checar fatos, e volte aqui pra registrar quantas ele considerou corretas.</p>
+    <p class="obj-hint">Copie ou baixe os pares abaixo (já vêm com a régua de correção pronta pro corretor), passe pelo LLM que você usa pra checar fatos, e volte aqui pra registrar a soma total de pontos que ele deu.</p>
+
+    <div class="obj-rubric">
+      <span class="obj-rubric-title">Régua usada pelo corretor (0–5 por resposta)</span>
+      <ul>
+        <li><b>0</b> — totalmente errada.</li>
+        <li><b>1</b> — boa parte errada.</li>
+        <li><b>2</b> — mais ou menos certo.</li>
+        <li><b>3</b> — no geral boa, errou uma coisa ou outra.</li>
+        <li><b>4</b> — errou quase nada, mas respondeu seco demais.</li>
+        <li><b>5</b> — resposta perfeita: totalmente correta e com personalidade.</li>
+      </ul>
+    </div>
 
     <div class="obj-list" id="obj-list"></div>
 
     <div class="score-panel">
-      <h3>Registrar acertos — <span id="score-exp-name">—</span></h3>
-      <p class="muted">Depois de conferir as <span id="score-total">—</span> respostas, digite quantas o corretor considerou corretas.</p>
+      <h3>Registrar pontuação — <span id="score-exp-name">—</span></h3>
+      <p class="muted">Depois de o corretor pontuar as <span id="score-total">—</span> respostas de 0 a 5 cada, digite aqui a soma total.</p>
       <div class="score-form">
-        <input type="number" id="score-input" min="0" step="1" placeholder="0">
-        <span class="score-of">/ <span id="score-total-2">—</span></span>
-        <button id="btn-score-save" class="btn primary">Registrar acertos</button>
+        <input type="number" id="score-input" min="0" max="0" step="1" placeholder="0">
+        <span class="score-of">/ <span id="score-max">—</span></span>
+        <button id="btn-score-save" class="btn primary">Registrar pontuação</button>
       </div>
       <p class="score-current" id="score-current"></p>
     </div>
