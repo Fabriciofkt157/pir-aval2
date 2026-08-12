@@ -6,7 +6,8 @@
      preferência (empates permitidos). 1º lugar = N pontos
      (N = nº de variantes comparadas naquela pergunta), último = 0.
    - OBJETIVA FACTUAL: você manda pra um LLM corrigir e registra
-     aqui só a quantidade de acertos. (inalterado)
+     aqui a soma total de pontos que ele deu (régua de 0 a 5 por
+     resposta).
 
    Observação sobre o "blind": como isto é uma página estática
    (sem backend), o id da variante fica em atributos internos do
@@ -33,21 +34,28 @@ const EXPERIMENTS = [
 ];
 
 const RANKS_KEY = "pir_lora_ranks_v1";
-const SCORES_KEY = "pir_lora_scores_v1";
+const SCORES_KEY = "pir_lora_scores_v3"; // v3: soma de pontos (régua 0–5 por resposta)
 
 const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+const RUBRIC_MAX = 5; // pontuação máxima por resposta na régua do corretor
 
 const CORRECTOR_PROMPT =
-  "Abaixo estão pares de pergunta e resposta gerados por um chatbot. Avalie cada " +
-  "resposta quanto à correção factual (correta ou incorreta) e, ao final, informe " +
-  "o número total de respostas corretas.\n\n";
+  "Abaixo estão pares de pergunta e resposta gerados por um chatbot. Avalie CADA " +
+  "resposta com uma nota de 0 a 5, segundo a régua abaixo, e ao final informe a " +
+  "SOMA TOTAL dos pontos.\n\n" +
+  "0 - totalmente errada.\n" +
+  "1 - boa parte errada.\n" +
+  "2 - mais ou menos certo.\n" +
+  "3 - no geral boa, errou uma coisa ou outra.\n" +
+  "4 - errou quase nada, mas respondeu seco demais.\n" +
+  "5 - resposta perfeita: totalmente correta e com personalidade.\n\n";
 
 // ---- 2. Estado ----
 let PESSOAL_ITEMS = [];   // todas as perguntas/respostas pessoais, de todas as variantes
 let OBJETIVA_ITEMS = [];  // idem, objetivas
 let QUESTIONS = [];        // uma entrada por id de pergunta, com .answers (todas as variantes)
 let RANKS = loadJson(RANKS_KEY, {});   // { questionId: { positions: {expId: posicao}, ts } }
-let SCORES = loadJson(SCORES_KEY, {}); // { experimento: { acertos, total, ts } }
+let SCORES = loadJson(SCORES_KEY, {}); // { experimento: { soma, max, ts } } — soma de pontos, régua 0–5 por resposta
 let queue = [];
 let cursor = 0;
 let currentObjExp = null;
@@ -93,7 +101,7 @@ const el = {
   btnObjDownload: document.getElementById("btn-obj-download"),
   scoreExpName: document.getElementById("score-exp-name"),
   scoreTotal: document.getElementById("score-total"),
-  scoreTotal2: document.getElementById("score-total-2"),
+  scoreMax: document.getElementById("score-max"),
   scoreInput: document.getElementById("score-input"),
   btnScoreSave: document.getElementById("btn-score-save"),
   scoreCurrent: document.getElementById("score-current"),
@@ -430,16 +438,17 @@ function renderObjList() {
 
   el.scoreExpName.textContent = currentObjExp;
   el.scoreTotal.textContent = items.length;
-  el.scoreTotal2.textContent = items.length;
-  el.scoreInput.max = items.length;
+  const maxPoints = items.length * RUBRIC_MAX;
+  el.scoreMax.textContent = maxPoints;
+  el.scoreInput.max = maxPoints;
 
   const saved = SCORES[currentObjExp];
   if (saved) {
-    el.scoreInput.value = saved.acertos;
-    el.scoreCurrent.textContent = `Registrado: ${saved.acertos} de ${saved.total} acertos (${new Date(saved.ts).toLocaleString("pt-BR")})`;
+    el.scoreInput.value = saved.soma;
+    el.scoreCurrent.textContent = `Registrado: ${saved.soma} / ${saved.max} pontos (${new Date(saved.ts).toLocaleString("pt-BR")})`;
   } else {
     el.scoreInput.value = "";
-    el.scoreCurrent.textContent = "Ainda sem nota registrada para essa variante.";
+    el.scoreCurrent.textContent = "Ainda sem pontuação registrada para essa variante.";
   }
 }
 
@@ -459,25 +468,25 @@ function buildCorrectorText(expId) {
 
 function saveScore() {
   const items = OBJETIVA_ITEMS.filter((it) => it.experimento === currentObjExp);
-  const total = items.length;
+  const maxPoints = items.length * RUBRIC_MAX;
   const raw = el.scoreInput.value;
 
   if (raw === "" || isNaN(raw)) {
-    showToast("Digite um número de acertos válido.");
+    showToast("Digite a soma de pontos.");
     return;
   }
-  const acertos = Math.round(Number(raw));
-  if (acertos < 0 || acertos > total) {
-    showToast(`O valor precisa estar entre 0 e ${total}.`);
+  const soma = Math.round(Number(raw));
+  if (soma < 0 || soma > maxPoints) {
+    showToast(`A soma precisa estar entre 0 e ${maxPoints}.`);
     return;
   }
 
-  SCORES[currentObjExp] = { acertos, total, ts: new Date().toISOString() };
+  SCORES[currentObjExp] = { soma, max: maxPoints, ts: new Date().toISOString() };
   saveJson(SCORES_KEY, SCORES);
   renderObjList();
   renderLeaderboard();
   updateStats();
-  showToast(`Registrado: ${acertos}/${total} acertos para ${currentObjExp}.`);
+  showToast(`Registrado: ${soma}/${maxPoints} pontos para ${currentObjExp}.`);
 }
 
 // ==================== Placar / Tabela de Isótopos ====================
@@ -495,7 +504,7 @@ function renderLeaderboard() {
       const score = SCORES[e.id];
       const agg = pessoalAgg[e.id];
       const pctPessoal = agg && agg.max ? (agg.points / agg.max) * 100 : null;
-      const pctObjetiva = score && score.total ? (score.acertos / score.total) * 100 : null;
+      const pctObjetiva = score && score.max ? (score.soma / score.max) * 100 : null;
       const parts = [pctPessoal, pctObjetiva].filter((v) => v !== null);
       const pctCombined = parts.length ? parts.reduce((a, b) => a + b, 0) / parts.length : null;
       return { ...e, pctPessoal, pctObjetiva, pctCombined, score, agg };
@@ -521,7 +530,7 @@ function renderLeaderboard() {
     const pessoalDetail = row.agg
       ? `${row.agg.count} perguntas · ${row.agg.points}/${row.agg.max} pts`
       : "sem ranking pessoal";
-    const objetivaDetail = row.score ? `${row.score.acertos}/${row.score.total} acertos` : "sem nota objetiva";
+    const objetivaDetail = row.score ? `${row.score.soma}/${row.score.max} pts` : "sem nota objetiva";
 
     tile.innerHTML = `
       ${row.pctCombined !== null ? `<span class="tile-rank">${index + 1}</span>` : ""}
@@ -591,12 +600,12 @@ function exportSummaryCsv() {
   const pessoalAgg = aggregatePessoalScores();
 
   const header =
-    "variante,r,alpha,aug,pessoal_perguntas_rankeadas,pessoal_pontos,pessoal_pontos_max,pessoal_pct,objetiva_acertos,objetiva_total,objetiva_pct_acertos";
+    "variante,r,alpha,aug,pessoal_perguntas_rankeadas,pessoal_pontos,pessoal_pontos_max,pessoal_pct,objetiva_soma,objetiva_max,objetiva_pct";
   const lines = EXPERIMENTS.map((e) => {
     const agg = pessoalAgg[e.id];
     const pctP = agg && agg.max ? ((agg.points / agg.max) * 100).toFixed(1) : "";
     const score = SCORES[e.id];
-    const pctO = score && score.total ? ((score.acertos / score.total) * 100).toFixed(1) : "";
+    const pctO = score && score.max ? ((score.soma / score.max) * 100).toFixed(1) : "";
     return [
       e.id,
       e.r,
@@ -606,8 +615,8 @@ function exportSummaryCsv() {
       agg ? agg.points : "",
       agg ? agg.max : "",
       pctP,
-      score ? score.acertos : "",
-      score ? score.total : "",
+      score ? score.soma : "",
+      score ? score.max : "",
       pctO,
     ].join(",");
   });
