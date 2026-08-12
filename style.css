@@ -470,6 +470,35 @@ select{
   max-width: 560px;
 }
 
+.obj-rubric{
+  background: var(--ink-soft);
+  border: 1px solid var(--ink-line);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  margin-bottom: 22px;
+}
+
+.obj-rubric-title{
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+
+.obj-rubric ul{
+  margin: 0;
+  padding: 0 0 0 18px;
+  font-size: 13px;
+  color: var(--paper);
+  line-height: 1.6;
+}
+
+.obj-rubric li{ margin-bottom: 2px; }
+.obj-rubric b{ color: var(--good); }
+
 .obj-list{
   background: var(--paper);
   color: var(--text);
