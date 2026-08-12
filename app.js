@@ -1,9 +1,18 @@
 /* ============================================================
    Tabela de Isótopos — lógica da aplicação
    Duas vertentes por variante de LoRA:
-   - PESSOAL: você vota Boa/Ruim aqui mesmo, uma a uma.
+   - PESSOAL: pra cada pergunta, você vê as respostas de TODAS as
+     variantes lado a lado, em ordem embaralhada, e ordena por
+     preferência (empates permitidos). 1º lugar = N pontos
+     (N = nº de variantes comparadas naquela pergunta), último = 0.
    - OBJETIVA FACTUAL: você manda pra um LLM corrigir e registra
-     aqui só a quantidade de acertos.
+     aqui só a quantidade de acertos. (inalterado)
+
+   Observação sobre o "blind": como isto é uma página estática
+   (sem backend), o id da variante fica em atributos internos do
+   DOM/JS, não em nenhum texto visível — o suficiente pra você
+   avaliar sem viés no uso normal, mas não é criptograficamente
+   oculto de quem abrir o devtools de propósito.
    ============================================================ */
 
 // ---- 1. Variantes esperadas (pastas), com seus parâmetros r / alpha ----
@@ -23,8 +32,10 @@ const EXPERIMENTS = [
   { id: "r64_a128",       r: 64, a: 128, aug: null },
 ];
 
-const VOTES_KEY = "pir_lora_votes_v2";
+const RANKS_KEY = "pir_lora_ranks_v1";
 const SCORES_KEY = "pir_lora_scores_v1";
+
+const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
 const CORRECTOR_PROMPT =
   "Abaixo estão pares de pergunta e resposta gerados por um chatbot. Avalie cada " +
@@ -34,7 +45,8 @@ const CORRECTOR_PROMPT =
 // ---- 2. Estado ----
 let PESSOAL_ITEMS = [];   // todas as perguntas/respostas pessoais, de todas as variantes
 let OBJETIVA_ITEMS = [];  // idem, objetivas
-let VOTES = loadJson(VOTES_KEY, {});   // { "exp#id": { experimento, id, vote, ts } }
+let QUESTIONS = [];        // uma entrada por id de pergunta, com .answers (todas as variantes)
+let RANKS = loadJson(RANKS_KEY, {});   // { questionId: { positions: {expId: posicao}, ts } }
 let SCORES = loadJson(SCORES_KEY, {}); // { experimento: { acertos, total, ts } }
 let queue = [];
 let cursor = 0;
@@ -51,9 +63,8 @@ const el = {
   chipExp: document.getElementById("chip-experiment"),
   chipPos: document.getElementById("chip-position"),
   question: document.getElementById("question-text"),
-  answer: document.getElementById("answer-text"),
-  btnGood: document.getElementById("btn-good"),
-  btnBad: document.getElementById("btn-bad"),
+  answerGrid: document.getElementById("answer-grid"),
+  btnSaveRank: document.getElementById("btn-save-rank"),
   btnSkip: document.getElementById("btn-skip"),
   btnPrev: document.getElementById("btn-prev"),
   progressFill: document.getElementById("progress-fill"),
@@ -61,7 +72,6 @@ const el = {
   emptyTitle: document.getElementById("empty-title"),
   emptySub: document.getElementById("empty-sub"),
   loading: document.getElementById("loading-state"),
-  filterExperiment: document.getElementById("filter-experiment"),
   filterUnvoted: document.getElementById("filter-unvoted"),
 
   statTotal: document.getElementById("stat-total"),
@@ -158,11 +168,6 @@ async function loadAll() {
   );
 
   for (const exp of loadedExperiments) {
-    const opt1 = document.createElement("option");
-    opt1.value = exp.id;
-    opt1.textContent = exp.id;
-    el.filterExperiment.appendChild(opt1);
-
     const opt2 = document.createElement("option");
     opt2.value = exp.id;
     opt2.textContent = exp.id;
@@ -180,6 +185,7 @@ async function loadAll() {
     return;
   }
 
+  buildQuestions();
   rebuildQueue();
   renderCard();
 
@@ -190,25 +196,65 @@ async function loadAll() {
   renderLeaderboard();
 }
 
-// ==================== ABA PESSOAL ====================
+// ==================== ABA PESSOAL — agrupamento por pergunta ====================
+
+// PRNG determinístico (seed = string) só pra embaralhar a ordem de exibição
+// das respostas de cada pergunta, sem depender de Math.random.
+function hashStr(s) {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) {
+    h = (h << 5) - h + s.charCodeAt(i);
+    h |= 0;
+  }
+  return h;
+}
+
+function mulberry32(seed) {
+  let a = seed | 0;
+  return function () {
+    a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function seededShuffle(arr, seedStr) {
+  const rand = mulberry32(hashStr(seedStr));
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function buildQuestions() {
+  const map = new Map();
+  for (const it of PESSOAL_ITEMS) {
+    if (!map.has(it.id)) map.set(it.id, { id: it.id, pergunta: it.pergunta, answers: [] });
+    map.get(it.id).answers.push(it);
+  }
+  QUESTIONS = Array.from(map.values()).sort((a, b) => a.id.localeCompare(b.id));
+
+  for (const q of QUESTIONS) {
+    q.shuffled = seededShuffle(q.answers, `q${q.id}-blind-v1`);
+    q.shuffled.forEach((ans, idx) => {
+      ans.label = LETTERS[idx] || `#${idx + 1}`;
+    });
+  }
+}
 
 function rebuildQueue() {
-  const expFilter = el.filterExperiment.value;
-  const onlyUnvoted = el.filterUnvoted.checked;
-
-  queue = PESSOAL_ITEMS.filter((it) => {
-    if (expFilter !== "all" && it.experimento !== expFilter) return false;
-    if (onlyUnvoted && VOTES[it.key]) return false;
-    return true;
-  });
-
+  const onlyPending = el.filterUnvoted.checked;
+  queue = QUESTIONS.filter((q) => !onlyPending || !RANKS[q.id]);
   cursor = 0;
   updateStats();
 }
 
 function updateStats() {
-  const total = Object.keys(VOTES).length;
-  const pending = PESSOAL_ITEMS.length - total;
+  const total = Object.keys(RANKS).length;
+  const pending = QUESTIONS.length - total;
   el.statTotal.textContent = total;
   el.statPending.textContent = Math.max(pending, 0);
 
@@ -229,9 +275,8 @@ function renderCard() {
   if (queue.length === 0) {
     el.card.hidden = true;
     el.empty.hidden = false;
-    el.emptyTitle.textContent = "Tudo avaliado por aqui.";
-    el.emptySub.textContent =
-      'Troque o filtro de variante ou desmarque "só não avaliadas" para revisar de novo.';
+    el.emptyTitle.textContent = "Tudo rankeado por aqui.";
+    el.emptySub.textContent = 'Desmarque "só não rankeadas" para revisar de novo.';
     el.progressFill.style.width = "0%";
     return;
   }
@@ -242,15 +287,38 @@ function renderCard() {
   el.empty.hidden = true;
   el.card.hidden = false;
 
-  const item = queue[cursor];
-  el.chipExp.textContent = item.experimento;
-  el.chipPos.textContent = `${cursor + 1} de ${queue.length} · #${item.id}`;
-  el.question.textContent = item.pergunta;
-  el.answer.textContent = item.resposta;
+  const q = queue[cursor];
+  const alreadyRanked = !!RANKS[q.id];
 
-  const existingVote = VOTES[item.key]?.vote;
-  el.btnGood.classList.toggle("active", existingVote === "boa");
-  el.btnBad.classList.toggle("active", existingVote === "ruim");
+  el.chipExp.textContent = alreadyRanked ? "✓ já rankeada" : `pergunta #${q.id}`;
+  el.chipPos.textContent = `${cursor + 1} de ${queue.length}`;
+  el.question.textContent = q.pergunta;
+
+  const savedPositions = RANKS[q.id]?.positions || {};
+
+  el.answerGrid.innerHTML = "";
+  for (const ans of q.shuffled) {
+    const n = q.shuffled.length;
+    const card = document.createElement("div");
+    card.className = "answer-card";
+    card.dataset.exp = ans.experimento;
+
+    const savedVal = savedPositions[ans.experimento];
+    let options = `<option value="" ${savedVal ? "" : "selected"} disabled>posição</option>`;
+    for (let p = 1; p <= n; p++) {
+      options += `<option value="${p}" ${Number(savedVal) === p ? "selected" : ""}>${p}º</option>`;
+    }
+
+    card.innerHTML = `
+      <div class="answer-card-head">
+        <span class="answer-label">Resposta ${ans.label}</span>
+        <select class="answer-rank-select" data-exp="${ans.experimento}">${options}</select>
+      </div>
+      <pre class="answer-card-text"></pre>
+    `;
+    card.querySelector(".answer-card-text").textContent = ans.resposta;
+    el.answerGrid.appendChild(card);
+  }
 
   el.progressFill.style.width = `${((cursor + 1) / queue.length) * 100}%`;
   el.btnPrev.style.visibility = cursor === 0 ? "hidden" : "visible";
@@ -258,11 +326,7 @@ function renderCard() {
 
 function advance() {
   if (el.filterUnvoted.checked) {
-    const expFilter = el.filterExperiment.value;
-    queue = PESSOAL_ITEMS.filter((it) => {
-      if (expFilter !== "all" && it.experimento !== expFilter) return false;
-      return !VOTES[it.key];
-    });
+    queue = QUESTIONS.filter((q) => !RANKS[q.id]);
     if (cursor >= queue.length) cursor = Math.max(queue.length - 1, 0);
   } else {
     cursor = Math.min(cursor + 1, queue.length - 1);
@@ -271,20 +335,79 @@ function advance() {
   renderLeaderboard();
 }
 
-function vote(value) {
+function saveRanking() {
   if (queue.length === 0) return;
-  const item = queue[cursor];
-  VOTES[item.key] = {
-    experimento: item.experimento,
-    id: item.id,
-    vote: value,
-    ts: new Date().toISOString(),
-  };
-  saveJson(VOTES_KEY, VOTES);
+  const q = queue[cursor];
+  const selects = el.answerGrid.querySelectorAll(".answer-rank-select");
+
+  const positions = {};
+  for (const sel of selects) {
+    if (sel.value === "") {
+      showToast("Dê uma posição pra cada resposta antes de salvar (pode repetir em caso de empate).");
+      sel.focus();
+      return;
+    }
+    positions[sel.dataset.exp] = Number(sel.value);
+  }
+
+  RANKS[q.id] = { positions, ts: new Date().toISOString() };
+  saveJson(RANKS_KEY, RANKS);
+  showToast(`Ranking salvo para a pergunta #${q.id}.`);
   advance();
 }
 
-// ==================== ABA OBJETIVA ====================
+// ==================== Pontuação do ranking (com empates) ====================
+
+// Recebe { expId: posicaoEscolhida } e devolve { points: {expId: pontos}, maxPoints }.
+// 1º lugar = maxPoints (nº de variantes comparadas nessa pergunta), último = 0.
+// Posições iguais (empate) ficam na mesma faixa e recebem os mesmos pontos.
+function computeTierPoints(positions) {
+  const entries = Object.entries(positions);
+  entries.sort((a, b) => a[1] - b[1]);
+  const n = entries.length;
+  const maxPoints = n;
+
+  const tiers = [];
+  let current = [entries[0]];
+  for (let i = 1; i < entries.length; i++) {
+    if (entries[i][1] === entries[i - 1][1]) {
+      current.push(entries[i]);
+    } else {
+      tiers.push(current);
+      current = [entries[i]];
+    }
+  }
+  tiers.push(current);
+
+  const k = tiers.length;
+  const points = {};
+  tiers.forEach((tier, i) => {
+    const pts = k === 1 ? maxPoints : Math.round(maxPoints - (i * maxPoints) / (k - 1));
+    tier.forEach(([expId]) => {
+      points[expId] = pts;
+    });
+  });
+
+  return { points, maxPoints };
+}
+
+function aggregatePessoalScores() {
+  const agg = {}; // expId -> { points, max, count }
+  for (const qid in RANKS) {
+    const rec = RANKS[qid];
+    if (!rec || !rec.positions) continue;
+    const { points, maxPoints } = computeTierPoints(rec.positions);
+    for (const expId in points) {
+      if (!agg[expId]) agg[expId] = { points: 0, max: 0, count: 0 };
+      agg[expId].points += points[expId];
+      agg[expId].max += maxPoints;
+      agg[expId].count += 1;
+    }
+  }
+  return agg;
+}
+
+// ==================== ABA OBJETIVA (inalterada) ====================
 
 function renderObjList() {
   const items = OBJETIVA_ITEMS.filter((it) => it.experimento === currentObjExp);
@@ -360,31 +483,22 @@ function saveScore() {
 // ==================== Placar / Tabela de Isótopos ====================
 
 function renderLeaderboard() {
-  const byExp = {};
-  for (const exp of EXPERIMENTS) byExp[exp.id] = { ...exp, good: 0, bad: 0, total: 0 };
-
-  for (const key in VOTES) {
-    const v = VOTES[key];
-    if (!byExp[v.experimento]) continue;
-    byExp[v.experimento].total++;
-    if (v.vote === "boa") byExp[v.experimento].good++;
-    if (v.vote === "ruim") byExp[v.experimento].bad++;
-  }
+  const pessoalAgg = aggregatePessoalScores();
 
   const loadedIds = new Set([
     ...PESSOAL_ITEMS.map((it) => it.experimento),
     ...OBJETIVA_ITEMS.map((it) => it.experimento),
   ]);
 
-  const rows = Object.values(byExp)
-    .filter((e) => loadedIds.has(e.id))
+  const rows = EXPERIMENTS.filter((e) => loadedIds.has(e.id))
     .map((e) => {
       const score = SCORES[e.id];
-      const pctPessoal = e.total ? (e.good / e.total) * 100 : null;
+      const agg = pessoalAgg[e.id];
+      const pctPessoal = agg && agg.max ? (agg.points / agg.max) * 100 : null;
       const pctObjetiva = score && score.total ? (score.acertos / score.total) * 100 : null;
       const parts = [pctPessoal, pctObjetiva].filter((v) => v !== null);
       const pctCombined = parts.length ? parts.reduce((a, b) => a + b, 0) / parts.length : null;
-      return { ...e, pctPessoal, pctObjetiva, pctCombined, score };
+      return { ...e, pctPessoal, pctObjetiva, pctCombined, score, agg };
     })
     .sort((a, b) => {
       if (a.pctCombined === null && b.pctCombined === null) return 0;
@@ -404,6 +518,10 @@ function renderLeaderboard() {
 
     const augLabel = row.aug ? ` · aug${row.aug}` : "";
     const fmt = (pct) => (pct === null ? "—" : Math.round(pct) + "%");
+    const pessoalDetail = row.agg
+      ? `${row.agg.count} perguntas · ${row.agg.points}/${row.agg.max} pts`
+      : "sem ranking pessoal";
+    const objetivaDetail = row.score ? `${row.score.acertos}/${row.score.total} acertos` : "sem nota objetiva";
 
     tile.innerHTML = `
       ${row.pctCombined !== null ? `<span class="tile-rank">${index + 1}</span>` : ""}
@@ -423,7 +541,7 @@ function renderLeaderboard() {
           </div>
         </div>
         <div class="tile-name">${row.id}${augLabel}</div>
-        <div class="tile-votes">${row.total} votos · ${row.score ? row.score.acertos + "/" + row.score.total + " acertos" : "sem nota objetiva"}</div>
+        <div class="tile-votes">${pessoalDetail} · ${objetivaDetail}</div>
       </div>
       <div class="tile-bar"><div class="tile-bar-fill" style="width:${row.pctCombined ?? 0}%"></div></div>
     `;
@@ -464,26 +582,19 @@ function stamp() {
 }
 
 function exportBackupJson() {
-  const payload = { exportedAt: new Date().toISOString(), votes: VOTES, scores: SCORES };
+  const payload = { exportedAt: new Date().toISOString(), ranks: RANKS, scores: SCORES };
   downloadFile(`backup-piR-lora-${stamp()}.json`, JSON.stringify(payload, null, 2), "application/json");
   showToast("Backup baixado. Importe esse arquivo em outro dispositivo pra continuar.");
 }
 
 function exportSummaryCsv() {
-  const byExp = {};
-  for (const exp of EXPERIMENTS) byExp[exp.id] = { ...exp, good: 0, bad: 0, total: 0 };
-  for (const key in VOTES) {
-    const v = VOTES[key];
-    if (!byExp[v.experimento]) continue;
-    byExp[v.experimento].total++;
-    if (v.vote === "boa") byExp[v.experimento].good++;
-    if (v.vote === "ruim") byExp[v.experimento].bad++;
-  }
+  const pessoalAgg = aggregatePessoalScores();
 
   const header =
-    "variante,r,alpha,aug,pessoal_avaliadas,pessoal_boas,pessoal_ruins,pessoal_pct_boas,objetiva_acertos,objetiva_total,objetiva_pct_acertos";
-  const lines = Object.values(byExp).map((e) => {
-    const pctP = e.total ? ((e.good / e.total) * 100).toFixed(1) : "";
+    "variante,r,alpha,aug,pessoal_perguntas_rankeadas,pessoal_pontos,pessoal_pontos_max,pessoal_pct,objetiva_acertos,objetiva_total,objetiva_pct_acertos";
+  const lines = EXPERIMENTS.map((e) => {
+    const agg = pessoalAgg[e.id];
+    const pctP = agg && agg.max ? ((agg.points / agg.max) * 100).toFixed(1) : "";
     const score = SCORES[e.id];
     const pctO = score && score.total ? ((score.acertos / score.total) * 100).toFixed(1) : "";
     return [
@@ -491,9 +602,9 @@ function exportSummaryCsv() {
       e.r,
       e.a,
       e.aug ?? "",
-      e.total,
-      e.good,
-      e.bad,
+      agg ? agg.count : 0,
+      agg ? agg.points : "",
+      agg ? agg.max : "",
       pctP,
       score ? score.acertos : "",
       score ? score.total : "",
@@ -511,20 +622,20 @@ function importBackupFile(file) {
   reader.onload = () => {
     try {
       const parsed = JSON.parse(reader.result);
-      const incomingVotes = parsed.votes || {};
+      const incomingRanks = parsed.ranks || {};
       const incomingScores = parsed.scores || {};
-      const count = Object.keys(incomingVotes).length + Object.keys(incomingScores).length;
+      const count = Object.keys(incomingRanks).length + Object.keys(incomingScores).length;
       if (!count) throw new Error("vazio");
 
       const ok = confirm(
-        `Importar ${Object.keys(incomingVotes).length} voto(s) e ${Object.keys(incomingScores).length} nota(s) objetiva(s)? ` +
+        `Importar ${Object.keys(incomingRanks).length} ranking(s) e ${Object.keys(incomingScores).length} nota(s) objetiva(s)? ` +
         `Em caso de conflito, o arquivo importado prevalece.`
       );
       if (!ok) return;
 
-      VOTES = { ...VOTES, ...incomingVotes };
+      RANKS = { ...RANKS, ...incomingRanks };
       SCORES = { ...SCORES, ...incomingScores };
-      saveJson(VOTES_KEY, VOTES);
+      saveJson(RANKS_KEY, RANKS);
       saveJson(SCORES_KEY, SCORES);
       rebuildQueue();
       renderCard();
@@ -540,18 +651,18 @@ function importBackupFile(file) {
 
 function resetAll() {
   const ok = confirm(
-    "Isso apaga todos os votos pessoais e notas objetivas salvos neste navegador. Se quiser guardar antes, baixe o backup .json primeiro. Continuar?"
+    "Isso apaga todos os rankings pessoais e notas objetivas salvos neste navegador. Se quiser guardar antes, baixe o backup .json primeiro. Continuar?"
   );
   if (!ok) return;
-  VOTES = {};
+  RANKS = {};
   SCORES = {};
-  saveJson(VOTES_KEY, VOTES);
+  saveJson(RANKS_KEY, RANKS);
   saveJson(SCORES_KEY, SCORES);
   rebuildQueue();
   renderCard();
   renderObjList();
   renderLeaderboard();
-  showToast("Votos e notas apagados.");
+  showToast("Rankings e notas apagados.");
 }
 
 // ==================== Toast ====================
@@ -579,8 +690,7 @@ function switchTab(tab) {
 el.tabPessoal.addEventListener("click", () => switchTab("pessoal"));
 el.tabObjetiva.addEventListener("click", () => switchTab("objetiva"));
 
-el.btnGood.addEventListener("click", () => vote("boa"));
-el.btnBad.addEventListener("click", () => vote("ruim"));
+el.btnSaveRank.addEventListener("click", saveRanking);
 el.btnSkip.addEventListener("click", () => {
   cursor = Math.min(cursor + 1, queue.length - 1);
   renderCard();
@@ -590,10 +700,6 @@ el.btnPrev.addEventListener("click", () => {
   renderCard();
 });
 
-el.filterExperiment.addEventListener("change", () => {
-  rebuildQueue();
-  renderCard();
-});
 el.filterUnvoted.addEventListener("change", () => {
   rebuildQueue();
   renderCard();
@@ -638,8 +744,6 @@ document.addEventListener("keydown", (e) => {
   if (el.panelPessoal.hidden || el.card.hidden) return;
   const tag = document.activeElement.tagName;
   if (tag === "INPUT" || tag === "SELECT" || tag === "TEXTAREA") return;
-  if (e.key === "g" || e.key === "G") vote("boa");
-  if (e.key === "b" || e.key === "B") vote("ruim");
   if (e.key === "ArrowRight") { cursor = Math.min(cursor + 1, queue.length - 1); renderCard(); }
   if (e.key === "ArrowLeft") { cursor = Math.max(cursor - 1, 0); renderCard(); }
 });
